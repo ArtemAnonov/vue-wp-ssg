@@ -1,0 +1,57 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>5</zoom_level><help_text>E
+--
+
+Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>220</x><y>275</y><w>150</w><h>60</h></coordinates><panel_attributes>Store
+--
+state
+--
++constructor($name, $script_handle, array $schema)
++rendered(): state
++render_values()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>25</x><y>275</y><w>140</w><h>35</h></coordinates><panel_attributes>Radl
+--
+--
++constructor(name, script_handle, schema: array )
++localize()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>275</y><w>105</w><h>35</h></coordinates><panel_attributes>Callback
+--
+--
++constructor()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>255</y><w>285</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>50;70;10;70;10;10;550;10;550;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>275</y><w>160</w><h>65</h></coordinates><panel_attributes>BasedModel
+--
+--
++constructor()
++render()
++request()
++get_all()
++get_by_id()
+#add_items( array $items, array $args, array $headers )
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>465</x><y>190</y><w>105</w><h>40</h></coordinates><panel_attributes>Value
+&lt;&lt;interface&gt;&gt;
+--
+--
++get(args)
++render()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>485</x><y>480</y><w>155</w><h>70</h></coordinates><panel_attributes>Request
+--
+--
++constructor()
++get_response_data()
++get_response_headers()
++create_route()
+#create_request()
+#do_request()
+#set_params()
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>275</y><w>120</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>50;10;10;10;10;420;220;420</additional_attributes></element><element><id>UMLNote</id><coordinates><x>305</x><y>500</y><w>160</w><h>25</h></coordinates><panel_attributes>$server = \rest_get_server();
+return $server-&gt;response_to_data( $this-&gt;response, false );</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>455</x><y>500</y><w>40</w><h>20</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;14;60;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>665</x><y>65</y><w>105</w><h>35</h></coordinates><panel_attributes>WP_REST_Server
+--
+--
++constructor()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>665</x><y>0</y><w>105</w><h>35</h></coordinates><panel_attributes>WP_REST_Request
+--
+--
++response_to_data()
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

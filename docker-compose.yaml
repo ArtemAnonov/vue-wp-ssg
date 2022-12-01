@@ -1,0 +1,68 @@
+version: '3.9'
+
+volumes:
+  html:
+  dbfile:
+
+networks:
+  app:
+    driver: bridge
+
+services:
+
+  phpmyadmin:
+    image: phpmyadmin:5.2
+    restart: always
+    ports:
+      - 8089:80
+    environment:
+      PMA_HOST: db
+      UPLOAD_LIMIT: 1024M
+      MEMORY_LIMIT: 1024M
+      MAX_EXECUTION_TIME: 300
+      POST_MAX_SIZE: 1024M
+      UPLOAD_MAX_FILESIZE: 1024M
+    depends_on:
+      - db
+    networks:
+      - app
+
+
+  db:
+    image: mysql:8.0
+    restart: unless-stopped
+    # env_file: .env
+    environment:
+      MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
+      MYSQL_DATABASE: wp_db
+      MYSQL_USER: MYSQL_USER
+      MYSQL_PASSWORD: MYSQL_PASSWORD
+    volumes:
+      # - ./db:/var/lib
+      - dbfile:/var/lib/mysql
+    command: '--default-authentication-plugin=mysql_native_password'
+    networks:
+      - app
+
+  web_nv:
+    build:
+      context: ./wp-apache
+    volumes:
+      - ./html/wp-content:/var/www/html/wp-content:delegated
+      - ./wp-apache/php-config/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      # - ./wp-apache/php-config/php.ini:/usr/local/etc/php/php.ini
+      - ./html/wp-config.php:/var/www/html/wp-config.php
+      - ./html/.htaccess:/var/www/html/.htaccess
+    # env_file:
+    #   - ./wp-apache/.env
+    ports:
+      - 80:80
+    depends_on:
+      - db
+    restart: unless-stopped
+    networks:
+      - app
+
+  # node:
+  #   image: node
+# html/wp-content/themes/CustomTheme/src
