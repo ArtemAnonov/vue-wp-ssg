@@ -21,12 +21,12 @@ final class Init
      */
     public static function get_services()
     {
-        $services = [
+        $universal_services = [
             [Core\Tags::class, []],
             [Core\Sidebar::class, []],
             [Setup\Setup::class, []],
             [Setup\Menus::class, []],
-            [VueWordpress\VueWordpress::class, []],
+
             [Setup\Enqueue::class, []],
             [Custom\PostTypes::class, []],
             [Custom\Admin::class, []],
@@ -38,10 +38,13 @@ final class Init
             [Plugins\Acf::class, []],
             // [\MyTest\MyReflection\Reflection::class, []]
         ];
-        // if (class_exists('RADL')) {
-        //     $services[] = [VueWordpress\VueWordpress::class, []];
-        // }
-        return $services;
+        $public_services = [
+            [VueWordpress\VueWordpress::class, []],
+        ];
+        $admin_services = [];
+        return is_admin() ?
+            array_merge($universal_services, $public_services) :
+            array_merge($universal_services, $admin_services);
     }
 
     /**

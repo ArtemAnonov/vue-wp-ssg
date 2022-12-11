@@ -2,28 +2,34 @@
 
 namespace Awps\VueWordpress;
 
+use \SSGGenerator as SSGGenerator;
 use \WGU as WGU;
 use \RADL as RADL;
 use RADL\Store\Callback;
 use RADL\Store\Models;
 
 /**
- * Undocumented class
+ * Class exist.
+ * Class not use in admin panel before creating static files.
  */
 class VueWordpress
 {
 
     public function register()
     {
+        if (class_exists('SSGGenerator')) {
+            new SSGGenerator();
+        }
+        
+        if (class_exists('RADL')) {
+            $schema = $this->get_schema();
+            new RADL($schema);
+        }
 
-        if (!class_exists('RADL')) return;
-
-        $schema = $this->get_schema();
-
-        new RADL('__VUE_WORDPRESS__', 'index.bundle.js', $schema);
         if (class_exists('WooCommerce')) {
             new WGU();
         }
+
     }
 
     public function get_schema()
@@ -35,22 +41,20 @@ class VueWordpress
                 'cart' => new Models\Cart(),
                 'checkout' => new Models\Checkout(),
 
-                'pages' => new Models\Pages(),
-                'banners' => new Models\Banners(),
-                'media' => new Models\Media(),
+                'pages' => new Models\Pages(true),
+                'banners' => new Models\Banners(true),
+                'media' => new Models\Media(true),
+
+                'products' => new Models\Products(),
+                'productsCategories' => new Models\ProductsCategories(true),
+                'productsAttributes' => new Models\ProductsAttributes(true),
+                'productsTermsBrands' => new Models\ProductsTermsBrands(true),
+                'productsTermsMaterials' => new Models\ProductsTermsMaterials(true),
+                'productsTermsSizes' => new Models\ProductsTermsSizes(true),
+                'productsTermsColors' => new Models\ProductsTermsColors(true),
 
                 'orders' => new Models\Orders(),
                 'customers' => new Models\Customers(),
-                'products' => new Models\Products(),
-
-                'productsCategories' => new Models\ProductsCategories(true),
-                'productsAttributes' => new Models\ProductsAttributes(),
-                'productsTermsBrands' => new Models\ProductsTermsBrands(),
-                'productsTermsMaterials' => new Models\ProductsTermsMaterials(),
-                'productsTermsSizes' => new Models\ProductsTermsSizes(),
-                'productsTermsColors' => new Models\ProductsTermsColors(),
-                // 'productsVariations' => new Models\ProductsVariations(),
-
 
                 'site' => new Callback([$this, 'vue_wordpress_site']),
                 'menus' => new Callback([$this, 'vue_wordpress_menus']),

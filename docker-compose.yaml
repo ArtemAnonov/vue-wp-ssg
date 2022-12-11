@@ -12,7 +12,7 @@ services:
 
   phpmyadmin:
     image: phpmyadmin:5.2
-    restart: always
+    # restart: always
     ports:
       - 8089:80
     environment:
@@ -30,7 +30,8 @@ services:
 
   db:
     image: mysql:8.0
-    restart: unless-stopped
+    # restart: unless-stopped
+
     # env_file: .env
     environment:
       MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
@@ -40,11 +41,13 @@ services:
     volumes:
       # - ./db:/var/lib
       - dbfile:/var/lib/mysql
+      - ./wp-apache/mysql-config/my.cnf:/etc/my.cnf
     command: '--default-authentication-plugin=mysql_native_password'
     networks:
       - app
 
   web_nv:
+    container_name: wp-apache
     build:
       context: ./wp-apache
     volumes:
@@ -59,10 +62,12 @@ services:
       - 80:80
     depends_on:
       - db
-    restart: unless-stopped
+    # restart: unless-stopped
     networks:
       - app
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
   # node:
   #   image: node
-# html/wp-content/themes/CustomTheme/src
+# html/wp-content/themes/CustomTheme/vue-vite-ssr

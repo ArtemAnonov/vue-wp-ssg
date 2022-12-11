@@ -1,15 +1,12 @@
 .posttypesui, .taxonomiesui {
   width: calc(100% - 300px);
 }
-
 .posttypesui .cptui-section:first-child, .taxonomiesui .cptui-section:first-child {
   margin-top: 30px;
 }
-
 .posttypesui .postbox-container, .taxonomiesui .postbox-container {
   width: 100%;
 }
-
 .posttypesui .postbox .toggle-indicator:before, .taxonomiesui .postbox .toggle-indicator:before {
   content: "\f142";
   display: inline-block;
@@ -19,46 +16,37 @@
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none !important;
 }
-
 .posttypesui .postbox.closed .handlediv .toggle-indicator::before, .taxonomiesui .postbox.closed .handlediv .toggle-indicator::before {
   content: "\f140";
 }
-
 .posttypesui .postbox .hndle, .taxonomiesui .postbox .hndle {
   cursor: pointer;
 }
-
 .posttypesui .required, .taxonomiesui .required {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 
 .cptui-table td.outer {
   vertical-align: top;
   width: 50%;
 }
-
-.cptui-table input[type="text"] {
+.cptui-table input[type=text] {
   width: 75%;
 }
-
 .cptui-table .question:hover {
   cursor: pointer;
 }
-
 .cptui-table th p {
   font-weight: 400;
   font-size: 12px;
 }
-
 .cptui-table .cptui-slug-details {
   margin-top: 15px;
 }
-
 .cptui-table #slugchanged, .cptui-table #slugexists {
   color: red;
   font-weight: bold;
 }
-
 .cptui-table #slugchanged.hidemessage, .cptui-table #slugexists.hidemessage {
   display: none;
 }
@@ -67,28 +55,23 @@
   font-size: 18px;
   font-weight: bold;
 }
-
 .cptui-support #support .question:before {
   content: "\f139";
   display: inline-block;
-  font: normal 25px/1 'dashicons';
+  font: normal 25px/1 "dashicons";
   margin-left: -25px;
   position: absolute;
   -webkit-font-smoothing: antialiased;
 }
-
 .cptui-support #support .question.active:before {
   content: "\f140";
 }
-
 .cptui-support #support .answer {
   margin: 10px 0 0 20px;
 }
-
 .cptui-support #support ol li {
   list-style: none;
 }
-
 .cptui-support #support li {
   position: relative;
 }
@@ -120,42 +103,34 @@
   overflow: visible !important;
   *zoom: 1;
 }
-
 .about-wrap .cptui-feature:before, .about-wrap .cptui-feature:after {
   content: " ";
   display: table;
 }
-
 .about-wrap .cptui-feature:after {
   clear: both;
 }
-
 .about-wrap h3 + .cptui-feature {
   margin-top: 0;
 }
-
 .about-wrap .changelog h2 {
   text-align: center;
 }
-
 .about-wrap .feature-rest div {
   width: 50% !important;
   padding-right: 100px;
   box-sizing: border-box;
   margin: 0 !important;
 }
-
 .about-wrap .feature-rest div.last-feature {
   padding-left: 100px;
   padding-right: 0;
 }
-
 .about-wrap .feature-rest div.icon {
   width: 0 !important;
   padding: 0;
   margin: 0;
 }
-
 .about-wrap .feature-rest div.icon:before {
   font-weight: normal;
   width: 100%;
@@ -177,15 +152,17 @@
   margin: 20px 0;
   padding: 1px 20px 10px;
 }
-
 .about-wrap .changelog h4 {
   line-height: 1.4;
 }
-
 .about-wrap .cptui-about-text {
   margin-bottom: 1em !important;
   margin-right: 0;
   max-width: calc(100% - 173px);
+}
+
+.email-octopus-form-row input::-moz-placeholder {
+  color: #cccccc;
 }
 
 .email-octopus-form-row input:-ms-input-placeholder {
@@ -201,10 +178,8 @@
 }
 
 .cptui-intro-devblock {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
+  flex-direction: row;
 }
 
 .cptui-help {
@@ -214,17 +189,14 @@
   text-decoration: none;
   width: 16px;
 }
-
 fieldset .cptui-help {
   position: relative;
   top: 4px;
 }
-
 .cptui-help:hover {
   color: #0074a2;
   opacity: 1;
 }
-
 .cptui-help:focus {
   box-shadow: none;
 }
@@ -233,7 +205,6 @@ fieldset .cptui-help {
   float: right;
   padding-left: 8px;
 }
-
 #menu_icon_preview img {
   display: block;
   height: 20px;
@@ -259,7 +230,6 @@ fieldset .cptui-help {
   margin-bottom: 10px;
   padding: 20px;
 }
-
 .email-octopus-form-wrapper label {
   margin-bottom: 10px;
 }
@@ -276,59 +246,35 @@ fieldset .cptui-help {
 }
 
 .wdspromos-about {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -ms-flex-align: start;
+  align-content: stretch;
   align-items: flex-start;
   margin: 20px 0;
 }
-
 .wdspromos-about a:nth-child(1) {
-  -ms-flex-order: 0;
   order: 0;
-  -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
-
 .wdspromos-about a:nth-child(2) {
-  -ms-flex-order: 0;
   order: 0;
-  -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
-
 .wdspromos-about a:nth-child(3) {
-  -ms-flex-order: 0;
   order: 0;
-  -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
-
 .wdspromos-about p {
   padding: 0 5px;
 }
-
 .wdspromos-about p:nth-child(1) {
   padding-left: 0;
 }
-
 .wdspromos-about p:nth-child(4) {
   padding-right: 0;
 }
@@ -340,11 +286,9 @@ fieldset .cptui-help {
 .cptui-listings th {
   font-weight: bold;
 }
-
 .cptui-listings .post-type-listing th {
   width: 16.66667%;
 }
-
 .cptui-listings .taxonomy-listing th {
   width: 20%;
 }
@@ -364,24 +308,20 @@ fieldset .cptui-help {
   padding: 5px;
   box-sizing: border-box;
 }
-
 .dashicon-picker-container ul {
   margin: 0 0 10px;
   padding: 0;
 }
-
 .dashicon-picker-container ul .dashicons {
   width: 20px;
   height: 20px;
   font-size: 20px;
 }
-
 .dashicon-picker-container ul li {
   display: inline-block;
   margin: 5px;
   float: left;
 }
-
 .dashicon-picker-container ul li a {
   display: block;
   text-decoration: none;
@@ -389,7 +329,6 @@ fieldset .cptui-help {
   padding: 5px 5px;
   border: 1px solid #dfdfdf;
 }
-
 .dashicon-picker-container ul li a:hover {
   border-color: #999;
   background: #efefef;
@@ -398,19 +337,16 @@ fieldset .cptui-help {
 .dashicon-picker-control {
   height: 32px;
 }
-
 .dashicon-picker-control a {
   padding: 5px;
   text-decoration: none;
   line-height: 32px;
   width: 25px;
 }
-
 .dashicon-picker-control a span {
   display: inline;
   vertical-align: middle;
 }
-
 .dashicon-picker-control input {
   font-size: 12px;
   width: 140px;
@@ -429,14 +365,12 @@ fieldset .cptui-help {
     background: url(../images/cptui-icon-173x173.png) no-repeat;
   }
 }
-
 @media screen and (max-width: 768px) {
   .cptui-table #description {
     width: 100%;
   }
   .wdspromos-about {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .wdspromos-about p {
     margin: 5px auto;
@@ -453,4 +387,4 @@ fieldset .cptui-help {
   #cptui_debug_info_email {
     width: 100%;
   }
-}
+}/*# sourceMappingURL=cptui.css.map */

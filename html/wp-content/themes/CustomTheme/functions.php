@@ -3,6 +3,8 @@ error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 1);
 
+
+
 // echo phpinfo();
 // xdebug_info();
 
@@ -28,6 +30,7 @@ if (class_exists('Awps\\Init')) {
     Awps\Init::register_services();
 }
 
+// exec();
 
 function vue_wordpress_min_read($content)
 {
@@ -41,11 +44,21 @@ function vue_wordpress_min_read($content)
     return $time . 'min read';
 }
 
+function get_static_html_page(string $page_name = '')
+{
+    $page_name = !empty($page_name) ? $page_name : get_page_uri();
+    include get_template_directory() . '/vue-vite-ssr/dist/static/' . $page_name  . '.html';
+}
+
 function dd($value, $file = '', $line = '')
 {
     echo '<pre><b>', $line, $file, '</b><br>', print_r($value, 1), '</pre>';
 }
-
+/**
+ * Declaring WooCommerce support in themes
+ *
+ * @return void
+ */
 function mytheme_add_woocommerce_support()
 {
     add_theme_support('woocommerce');

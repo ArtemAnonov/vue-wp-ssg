@@ -11,7 +11,7 @@ License URI:  https://www.gnu.org/licenses/gpl-2.0.html
  */
 defined('ABSPATH') || exit;
 
-if (!class_exists('RADL')) {
+if (!class_exists('RADL')) { // && is_admin() === false
 
     class RADL
     {
@@ -34,26 +34,24 @@ if (!class_exists('RADL')) {
          * @param [type] $script_handle
          * @param array $schema - Store Value-type objects
          */
-        public function __construct($name, $script_handle, array $schema)
+        public function __construct(array $schema, $name = '__VUE_WORDPRESS__', $script_handle = 'index.bundle.js')
         {
             $store = new RADL\Store($name, $script_handle, $schema);
             RADL\Store::$instance = $store;
             self::$store = $store;
 
+            // (!) not run
             add_action('wp_footer', array('RADL', 'localize'));
         }
 
-
-
         /**
-         * Генерация и/или извлечение и передача отрендеренных данных во фронтенд
+         * Render store (and replace values relevating objects/arrays)
          *
          * @return void
          */
-        public static function localize()
+        public static function render_store()
         {
-            $rendered = self::$store::rendered();
-
+            self::$store::rendered();
             array_walk_recursive(self::$store::$state, function ($item, $key) use (&$clone_state) {
                 if ($item instanceof RADL\Store\Value) {
                     if ($item instanceof RADL\Store\Models\BasedModels) {
@@ -70,8 +68,21 @@ if (!class_exists('RADL')) {
                     }
                 }
             });
-            echo '<script>console.log(' . json_encode($clone_state) . ')</script>';
 
+            return $clone_state;
+        }
+
+
+
+        /**
+         * Передача отрендеренных данных во фронтенд
+         *
+         * @return void
+         */
+        public static function localize()
+        {
+            $clone_state = self::render_store();
+            echo '<script>console.log(' . json_encode($clone_state) . ')</script>';
             wp_localize_script(self::$store->script_handle, self::$store->name, $clone_state);
         }
 
