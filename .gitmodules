@@ -1,3 +1,6 @@
-[submodule "html/wp-content/themes/CustomTheme/vue-vite-ssr"]
-	path = html/wp-content/themes/CustomTheme/vue-vite-ssr
+[submodule "html/wp-content/themes/logotype-ssr/vue-vite-ssr"]
+	path = html/wp-content/themes/logotype-ssr/vue-vite-ssr
+	url = https://github.com/ArtemAnonov/vue-vite-ssr.git
+[submodule "vue-vite-ssr"]
+	path = vue-vite-ssr
 	url = https://github.com/ArtemAnonov/vue-vite-ssr.git
