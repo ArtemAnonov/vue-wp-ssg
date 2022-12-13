@@ -1,1 +1,0 @@
-taxonomy-product-cat.php

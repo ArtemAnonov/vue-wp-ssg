@@ -31,33 +31,31 @@ services:
   db:
     image: mysql:8.0
     # restart: unless-stopped
-
-    # env_file: .env
     environment:
       MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
       MYSQL_DATABASE: wp_db
       MYSQL_USER: MYSQL_USER
       MYSQL_PASSWORD: MYSQL_PASSWORD
     volumes:
-      # - ./db:/var/lib
       - dbfile:/var/lib/mysql
-      - ./wp-apache/mysql-config/my.cnf:/etc/my.cnf
-    command: '--default-authentication-plugin=mysql_native_password'
+      - ./.configuration/mysql/my.cnf:/etc/my.cnf #for shrink RAM
     networks:
       - app
 
-  web_nv:
+  server:
     container_name: wp-apache
     build:
-      context: ./wp-apache
+      context: ./.configuration
     volumes:
-      - ./html/wp-content:/var/www/html/wp-content:delegated
-      - ./wp-apache/php-config/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
-      # - ./wp-apache/php-config/php.ini:/usr/local/etc/php/php.ini
+      - ./html/wp-content/plugins:/var/www/html/wp-content/plugins
+      - ./html/wp-content/themes/logotype-ssr:/var/www/html/wp-content/themes/logotype-ssr
+      - ./html/wp-content/uploads:/var/www/html/wp-content/uploads
+
+      - ./.configuration/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
       - ./html/wp-config.php:/var/www/html/wp-config.php
       - ./html/.htaccess:/var/www/html/.htaccess
-    # env_file:
-    #   - ./wp-apache/.env
+
+      - ./html/wp-content/debug.log:/var/www/html/wp-content/debug.log
     ports:
       - 80:80
     depends_on:
@@ -65,9 +63,11 @@ services:
     # restart: unless-stopped
     networks:
       - app
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+  
+  nodejs: 
+    container_name: nodejs
+    image: node:latest
 
-  # node:
-  #   image: node
-# html/wp-content/themes/CustomTheme/vue-vite-ssr
+
+
+# html/wp-content/themes/logotype-ssr/vue-vite-ssr
