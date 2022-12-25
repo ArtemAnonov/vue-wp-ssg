@@ -9,6 +9,6 @@ class ProductsTermsSizes extends BasedModelsWC
     public $type = 'productsTermsSizes';
     
     public $specific_params = [
-        "per_page" => 100,
+        // "per_page" => 100,
     ];
 }

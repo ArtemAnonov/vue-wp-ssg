@@ -14,14 +14,10 @@ class BasedModelsWC extends BasedModels
 
     public function __construct($prefetch_load = true)
     {
-
         parent::__construct($prefetch_load);
-        // add_action('rest_api_init', [$this, 'register_rest_routes']);
     }
 
     public function register_rest_routes(WP_REST_Server $server) {
-        // $s = Server::instance();
-        // $c = new \WC_REST_Orders_Controller();
         register_rest_route( 
             substr(substr($this->apiType, 1), -8, 7), 
             '/' . $this->route_base, 

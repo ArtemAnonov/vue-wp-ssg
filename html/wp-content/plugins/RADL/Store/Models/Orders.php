@@ -8,11 +8,11 @@ class Orders extends BasedModelsWC
 
     public $type = 'orders';
 
-
-
     public $specific_params = [
-        "per_page" => 8,
-        "page" => 1,
-    ];
 
+    ];
+    public function __construct($prefetch_load = false)
+    {
+        parent::__construct($prefetch_load);
+    }
 }

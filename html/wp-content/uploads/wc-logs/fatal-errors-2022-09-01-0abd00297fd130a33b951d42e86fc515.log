@@ -10,9 +10,9 @@ Stack trace:
 #7 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(243): RADL\Store\Requests\Request->__construct('auth', Array, '/jwt-auth/v1/', 'POST', Array)
 #8 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(91): RADL\Store\Models\BasedModels->request(Array, NULL, Array, 'POST')
 #9 /var/www/html/wp-content/plugins/radl/store.php(53): RADL\Store\Models\BasedModels->post(Array, Array)
-#10 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(47): RADL\Store::post('state.auth', Array, Array)
-#11 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#12 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#10 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(47): RADL\Store::post('state.auth', Array, Array)
+#11 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#12 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #13 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #14 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #15 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -33,9 +33,9 @@ Stack trace:
 #7 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(243): RADL\Store\Requests\Request->__construct('auth', Array, '/jwt-auth/v1/', 'POST', Array)
 #8 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(91): RADL\Store\Models\BasedModels->request(Array, NULL, Array, 'POST')
 #9 /var/www/html/wp-content/plugins/radl/store.php(53): RADL\Store\Models\BasedModels->post(Array, Array)
-#10 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(47): RADL\Store::post('state.auth', Array, Array)
-#11 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#12 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#10 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(47): RADL\Store::post('state.auth', Array, Array)
+#11 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#12 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #13 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #14 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #15 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -48,9 +48,9 @@ Stack trace:
 Stack trace:
 #0 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(100): RADL\Store\Models\BasedModels->request(Array)
 #1 /var/www/html/wp-content/plugins/radl/store.php(93): RADL\Store\Models\BasedModels->get_all(Array)
-#2 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(47): RADL\Store::get_all('state.products')
-#3 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#4 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#2 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(47): RADL\Store::get_all('state.products')
+#3 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#4 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #5 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #6 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #7 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -63,9 +63,9 @@ Stack trace:
 Stack trace:
 #0 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(100): RADL\Store\Models\BasedModels->request(Array)
 #1 /var/www/html/wp-content/plugins/radl/store.php(93): RADL\Store\Models\BasedModels->get_all(Array)
-#2 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(47): RADL\Store::get_all('state.products')
-#3 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#4 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#2 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(47): RADL\Store::get_all('state.products')
+#3 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#4 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #5 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #6 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #7 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -86,9 +86,9 @@ Stack trace:
 #7 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(243): RADL\Store\Requests\Request->__construct('products', Array, '/wc/v3/', 'GET', Array)
 #8 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(100): RADL\Store\Models\BasedModels->request(Array)
 #9 /var/www/html/wp-content/plugins/radl/store.php(93): RADL\Store\Models\BasedModels->get_all(Array)
-#10 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(48): RADL\Store::get_all('state.products')
-#11 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#12 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#10 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(48): RADL\Store::get_all('state.products')
+#11 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#12 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #13 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #14 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #15 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -109,9 +109,9 @@ Stack trace:
 #7 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(243): RADL\Store\Requests\Request->__construct('auth', Array, '/jwt-auth/v1/', 'POST', Array)
 #8 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(91): RADL\Store\Models\BasedModels->request(Array, NULL, Array, 'POST')
 #9 /var/www/html/wp-content/plugins/radl/store.php(53): RADL\Store\Models\BasedModels->post(Array, Array)
-#10 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(48): RADL\Store::post('state.auth', Array, Array)
-#11 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#12 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#10 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(48): RADL\Store::post('state.auth', Array, Array)
+#11 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#12 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #13 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #14 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #15 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -132,9 +132,9 @@ Stack trace:
 #7 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(243): RADL\Store\Requests\Request->__construct('auth', Array, '/jwt-auth/v1/', 'POST', Array)
 #8 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(91): RADL\Store\Models\BasedModels->request(Array, NULL, Array, 'POST')
 #9 /var/www/html/wp-content/plugins/radl/store.php(53): RADL\Store\Models\BasedModels->post(Array, Array)
-#10 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(48): RADL\Store::post('state.auth', Array, Array)
-#11 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#12 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#10 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(48): RADL\Store::post('state.auth', Array, Array)
+#11 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#12 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #13 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #14 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #15 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -143,323 +143,323 @@ Stack trace:
 #18 {main}
   thrown in /var/www/html/wp-includes/rest-api.php on line 349
 
-2022-09-01T14:40:20+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T14:40:20+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T14:43:51+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T14:43:51+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T14:46:57+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T14:46:57+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T14:46:57+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T14:46:57+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T14:47:21+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T14:47:21+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T14:48:28+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T14:48:28+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T15:06:20+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T15:06:20+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T15:06:56+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T15:06:56+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T15:30:29+00:00 CRITICAL syntax error, unexpected identifier "username", expecting ")" in /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php on line 27
+2022-09-01T15:30:29+00:00 CRITICAL syntax error, unexpected identifier "username", expecting ")" in /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php on line 27
 
-2022-09-01T15:31:34+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T15:31:34+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T15:32:38+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T15:32:38+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T15:36:46+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T15:36:46+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T15:38:15+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T15:38:15+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T15:38:38+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T15:38:38+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T15:39:46+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T15:39:46+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T15:40:35+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T15:40:35+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T16:05:42+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T16:05:42+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T16:07:39+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T16:07:39+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T16:18:32+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T16:18:32+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
-2022-09-01T16:23:23+00:00 CRITICAL syntax error, unexpected variable "$response" in /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php on line 35
+2022-09-01T16:23:23+00:00 CRITICAL syntax error, unexpected variable "$response" in /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php on line 35
 
-2022-09-01T16:24:29+00:00 CRITICAL syntax error, unexpected variable "$response" in /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php on line 35
+2022-09-01T16:24:29+00:00 CRITICAL syntax error, unexpected variable "$response" in /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php on line 35
 
-2022-09-01T16:24:50+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T16:24:50+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
 2022-09-01T16:50:47+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php:97
 Stack trace:
 #0 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(97): in_array('params', NULL)
 #1 /var/www/html/wp-content/plugins/radl/store.php(93): RADL\Store\Models\BasedModels->get_all(Array)
-#2 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(51): RADL\Store::get_all('state.products', Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#4 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#2 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(51): RADL\Store::get_all('state.products', Array)
+#3 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#4 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #5 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #6 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #7 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -472,9 +472,9 @@ Stack trace:
 Stack trace:
 #0 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(97): in_array('params', NULL)
 #1 /var/www/html/wp-content/plugins/radl/store.php(93): RADL\Store\Models\BasedModels->get_all(Array)
-#2 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(51): RADL\Store::get_all('state.products', Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#4 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#2 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(51): RADL\Store::get_all('state.products', Array)
+#3 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#4 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #5 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #6 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #7 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -487,9 +487,9 @@ Stack trace:
 Stack trace:
 #0 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(98): RADL\Store\Models\BasedModels->get_requested(NULL)
 #1 /var/www/html/wp-content/plugins/radl/store.php(93): RADL\Store\Models\BasedModels->get_all(Array)
-#2 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(51): RADL\Store::get_all('state.products', Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#4 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#2 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(51): RADL\Store::get_all('state.products', Array)
+#3 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#4 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #5 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #6 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #7 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -498,29 +498,29 @@ Stack trace:
 #10 {main}
   thrown in /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php on line 163
 
-2022-09-01T16:55:54+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T16:55:54+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
 2022-09-01T20:16:02+00:00 CRITICAL Declaration of RADL\Store\Models\BasedModels::get_all(array &$config) must be compatible with RADL\Store\Value::get_all(array $params) in /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php on line 94
 
 2022-09-01T20:18:50+00:00 CRITICAL Uncaught Exception: Неподходящий класс, дан ::class in /var/www/html/wp-content/plugins/radl/store.php:95
 Stack trace:
-#0 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(49): RADL\Store::get_all('state.products', Array)
-#1 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#2 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#0 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(49): RADL\Store::get_all('state.products', Array)
+#1 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#2 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #3 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #4 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -531,9 +531,9 @@ Stack trace:
 
 2022-09-01T20:19:24+00:00 CRITICAL Uncaught Exception: Неподходящий класс, дан ::class in /var/www/html/wp-content/plugins/radl/store.php:95
 Stack trace:
-#0 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(49): RADL\Store::get_all('state.products', Array)
-#1 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#2 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#0 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(49): RADL\Store::get_all('state.products', Array)
+#1 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#2 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #3 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #4 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -543,9 +543,9 @@ Stack trace:
 
 2022-09-01T20:20:35+00:00 CRITICAL Uncaught Exception: Неподходящий класс, дан ::class in /var/www/html/wp-content/plugins/radl/store.php:95
 Stack trace:
-#0 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(49): RADL\Store::get_all('state.products', Array)
-#1 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#2 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#0 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(49): RADL\Store::get_all('state.products', Array)
+#1 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#2 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #3 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #4 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -558,21 +558,21 @@ Stack trace:
 
 2022-09-01T20:23:23+00:00 CRITICAL Declaration of RADL\Store\Callback::get_all($params) must be compatible with RADL\Store\Value::get_all(array &$config) in /var/www/html/wp-content/plugins/radl/store/callback.php on line 60
 
-2022-09-01T20:28:32+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php:2
+2022-09-01T20:28:32+00:00 CRITICAL Uncaught Error: Call to undefined method RADL\Store::get() in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php:2
 Stack trace:
 #0 /var/www/html/wp-includes/template.php(772): require()
 #1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', false, Array)
 #2 /var/www/html/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
-#3 /var/www/html/wp-content/themes/CustomTheme/header.php(17): get_template_part('components/Head...')
+#3 /var/www/html/wp-content/themes/logotype-ssr/header.php(17): get_template_part('components/Head...')
 #4 /var/www/html/wp-includes/template.php(770): require_once('/var/www/html/w...')
 #5 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
 #6 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#7 /var/www/html/wp-content/themes/CustomTheme/index.php(2): get_header()
+#7 /var/www/html/wp-content/themes/logotype-ssr/index.php(2): get_header()
 #8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
 #9 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
 #10 /var/www/html/index.php(17): require('/var/www/html/w...')
 #11 {main}
-  thrown in /var/www/html/wp-content/themes/CustomTheme/components/HeaderNode.php on line 2
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/components/HeaderNode.php on line 2
 
 2022-09-01T20:36:16+00:00 CRITICAL Uncaught Error: Class "WP_Site_Health" not found in /var/www/html/wp-includes/rest-api.php:349
 Stack trace:
@@ -586,9 +586,9 @@ Stack trace:
 #7 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(247): RADL\Store\Requests\Request->__construct('products', Array, '/wc/v3/', 'GET', Array)
 #8 /var/www/html/wp-content/plugins/radl/store/models/basedmodels.php(100): RADL\Store\Models\BasedModels->request(Array)
 #9 /var/www/html/wp-content/plugins/radl/store.php(93): RADL\Store\Models\BasedModels->get_all(Array)
-#10 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(49): RADL\Store::get_all('state.products', Array)
-#11 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#12 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#10 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(49): RADL\Store::get_all('state.products', Array)
+#11 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#12 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #13 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #14 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #15 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
@@ -605,9 +605,9 @@ Stack trace:
 #3 /var/www/html/wp-includes/rest-api.php(561): do_action('rest_api_init', Object(WP_REST_Server))
 #4 /var/www/html/wp-includes/rest-api.php(519): rest_get_server()
 #5 /var/www/html/wp-content/plugins/wgu/wgu.php(36): rest_do_request(Object(WP_REST_Request))
-#6 /var/www/html/wp-content/themes/CustomTheme/inc/VueWordpress/VueWordpress.php(72): WGU->__construct()
-#7 /var/www/html/wp-content/themes/CustomTheme/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
-#8 /var/www/html/wp-content/themes/CustomTheme/functions.php(64): Awps\Init::register_services()
+#6 /var/www/html/wp-content/themes/logotype-ssr/inc/VueWordpress/VueWordpress.php(72): WGU->__construct()
+#7 /var/www/html/wp-content/themes/logotype-ssr/inc/Init.php(55): Awps\VueWordpress\VueWordpress->register()
+#8 /var/www/html/wp-content/themes/logotype-ssr/functions.php(64): Awps\Init::register_services()
 #9 /var/www/html/wp-settings.php(566): include('/var/www/html/w...')
 #10 /var/www/html/wp-config.php(130): require_once('/var/www/html/w...')
 #11 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')

@@ -19,13 +19,19 @@
             "request": "attach",
             "name": "F",
             "port": 9222,
-            "webRoot": "${workspaceFolder}/html/wp-content/themes/CustomTheme"
+            "webRoot": "${workspaceFolder}/html/wp-content/themes/logotype-ssr/vue-vite-ssr/src",
+            "url": "http://localhost:*",
+            // "sourceMapPathOverrides": {
+            //     "meteor://💻app/*": "${workspaceFolder}/*",
+            //     "webpack:///./~/*": "${workspaceFolder}/node_modules/*",
+            //     "webpack://?:*/*": "${workspaceFolder}/*"
+            // }
         },
         {
             "type": "node",
             "name": "JavaScript Debug Terminal",
             "request": "launch",
-            "cwd": "${workspaceFolder}/html/wp-content/themes/CustomTheme/vue-vite-ssr"
+            "cwd": "${workspaceFolder}/html/wp-content/themes/logotype-ssr/vue-vite-ssr"
         }
     ]
 }

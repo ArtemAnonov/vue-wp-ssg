@@ -9,6 +9,6 @@ class ProductsAttributes extends BasedModelsWC
     public $type = 'productsAttributes';
     
     public $specific_params = [
-        "per_page" => 100,
+        // "per_page" => 100,
     ];
 }

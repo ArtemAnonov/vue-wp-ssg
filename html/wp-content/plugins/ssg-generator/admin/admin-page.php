@@ -4,8 +4,12 @@ use \RADL as RADL;
 // use \Awps\VueWordpress\VueWordpress;
 // (new VueWordpress)->register();
 $store = RADL::render_store();
-$json = json_encode($store);
 echo '<script>console.log(' . json_encode($store) . ')</script>';
+
+// for replace host
+
+
+$json = json_encode($store);
 
 file_put_contents(get_template_directory() . '/vue-vite-ssr/src/json/vuewp.json', $json);
 

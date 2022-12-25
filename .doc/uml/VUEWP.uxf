@@ -1,8 +1,0 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>700</x><y>190</y><w>210</w><h>90</h></coordinates><panel_attributes>productModule
---
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>190</y><w>210</w><h>90</h></coordinates><panel_attributes>filterModule
---
-filterRequest
---
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>190</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>0</x><y>200</y><w>270</w><h>150</h></coordinates><panel_attributes>Буффер, который заполняет product.request
-по нажатии клавищи "Применить фильтр"</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>210</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element></diagram>

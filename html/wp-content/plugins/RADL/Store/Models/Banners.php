@@ -11,7 +11,7 @@ class Banners extends BasedModels
 	public $apiType = '/wp/v2/';
 
 	public $specific_params = [
-		"per_page" => 10,
+		// "per_page" => 10,
 		"banner_categories" => ''
 	];
 }

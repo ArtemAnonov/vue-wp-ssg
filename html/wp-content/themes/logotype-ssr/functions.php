@@ -44,11 +44,25 @@ function vue_wordpress_min_read($content)
     return $time . 'min read';
 }
 
-function get_static_html_page(string $page_name = '')
+function get_static_html_page(string $page_path = '')
 {
-    $page_name = !empty($page_name) ? $page_name : get_page_uri();
-    include get_template_directory() . '/vue-vite-ssr/dist/static/' . $page_name  . '.html';
+    $page_path = !empty($page_path) ? $page_path : '/' . get_page_uri();
+    include get_template_directory() . '/vue-vite-ssr/dist/static' . $page_path  . '.html';
 }
+
+// function my_customize_rest_cors() {
+// 	remove_filter( 'rest_pre_serve_request', 'rest_send_cors_headers' );
+// 	add_filter( 'rest_pre_serve_request', function( $value ) {
+// 		header( 'Access-Control-Allow-Origin: *' );
+// 		header( 'Access-Control-Allow-Methods: GET' );
+// 		header( 'Access-Control-Allow-Credentials: true' );
+// 		header( 'Access-Control-Expose-Headers: Link', false );
+
+// 		return $value;
+// 	} );
+// }
+// add_action( 'rest_api_init', 'my_customize_rest_cors', 15 );
+
 
 function dd($value, $file = '', $line = '')
 {

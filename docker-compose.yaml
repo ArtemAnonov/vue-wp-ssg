@@ -12,7 +12,7 @@ services:
 
   phpmyadmin:
     image: phpmyadmin:5.2
-    # restart: always
+    container_name: docker-phpmyadmin
     ports:
       - 8089:80
     environment:
@@ -30,7 +30,7 @@ services:
 
   db:
     image: mysql:8.0
-    # restart: unless-stopped
+    container_name: docker-db
     environment:
       MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
       MYSQL_DATABASE: wp_db
@@ -38,36 +38,47 @@ services:
       MYSQL_PASSWORD: MYSQL_PASSWORD
     volumes:
       - dbfile:/var/lib/mysql
-      - ./.configuration/mysql/my.cnf:/etc/my.cnf #for shrink RAM
+      - ./.configuration/db/mysql/my.cnf:/etc/my.cnf #for shrink RAM
     networks:
       - app
 
   server:
-    container_name: wp-apache
+    container_name: docker-server
     build:
-      context: ./.configuration
+      context: ./.configuration/server
     volumes:
       - ./html/wp-content/plugins:/var/www/html/wp-content/plugins
       - ./html/wp-content/themes/logotype-ssr:/var/www/html/wp-content/themes/logotype-ssr
       - ./html/wp-content/uploads:/var/www/html/wp-content/uploads
 
-      - ./.configuration/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      - ./.configuration/server/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
       - ./html/wp-config.php:/var/www/html/wp-config.php
       - ./html/.htaccess:/var/www/html/.htaccess
 
       - ./html/wp-content/debug.log:/var/www/html/wp-content/debug.log
+    env_file:
+      ./.configuration/server/.env
     ports:
       - 80:80
     depends_on:
       - db
-    # restart: unless-stopped
     networks:
       - app
-  
-  nodejs: 
-    container_name: nodejs
-    image: node:latest
 
+  # LOCAL ONLI, FUCK IT \/
+  # node: 
+  #   container_name: docker-node
+  #   build:
+  #     context: ./html/wp-content/themes/logotype-ssr/vue-vite-ssr
+  #   ports:
+  #     - "3000:3000"
+    
+  #   volumes:
+  #     - ./html/wp-content/themes/logotype-ssr/vue-vite-ssr:/usr/src/app
+  #     - /usr/src/app/node_modules
+  #     # - ./home/artbot/dev/wp-docker-apache/html/wp-content/themes/logotype-ssr/vue-vite-ssr:/usr/src/app
+  #   # command: npm install
+  #     # - npm install
+  #     # - npm run dev
 
-
-# html/wp-content/themes/logotype-ssr/vue-vite-ssr
+      

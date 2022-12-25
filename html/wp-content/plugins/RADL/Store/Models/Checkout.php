@@ -10,4 +10,8 @@ class Checkout extends BasedModelsWC
 
     public $type = 'checkout';
 
+    public function __construct($prefetch_load = false)
+    {
+        parent::__construct($prefetch_load);
+    }
 }

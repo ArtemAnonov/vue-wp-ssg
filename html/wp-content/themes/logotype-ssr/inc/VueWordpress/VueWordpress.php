@@ -45,7 +45,7 @@ class VueWordpress
                 'banners' => new Models\Banners(true),
                 'media' => new Models\Media(true),
 
-                'products' => new Models\Products(),
+                'products' => new Models\Products(true),
                 'productsCategories' => new Models\ProductsCategories(true),
                 'productsAttributes' => new Models\ProductsAttributes(true),
                 'productsTermsBrands' => new Models\ProductsTermsBrands(true),
@@ -66,6 +66,12 @@ class VueWordpress
     public function vue_wordpress_filter()
     {
 
+        if (empty(LIKE_A_SPA)) {
+            $products = RADL\Store::get_all('state.products');
+            $product_prices = array_map(fn($item) => $item['price'], $products);
+            sort($product_prices, SORT_NUMERIC);
+        }
+
         $defaultValues = (object) [
             'sort' => [
                 (object) ["id" => 0, "name" => 'По умолчанию', "orderby" => '', "order" => ''],
@@ -79,8 +85,8 @@ class VueWordpress
         $params = (object) [
             "page" => 1,
             "category" => null,
-            'min_price' => 1000,
-            'max_price' => 1000000,
+            'min_price' => LIKE_A_SPA ? 1000 : (int)reset($product_prices),
+            'max_price' => LIKE_A_SPA ? 1000000 : (int)end($product_prices),
             "orderAndOrderBy" => $defaultValues->sort[0],
         ];
 
@@ -94,8 +100,8 @@ class VueWordpress
         }
 
         return [
-            "minCost" => null,
-            "maxCost" => null,
+            "minCost" => LIKE_A_SPA ? null : (int)reset($product_prices),
+            "maxCost" => LIKE_A_SPA ? null : (int)end($product_prices),
             "params" => $params,
             "defaultValues" => $defaultValues
         ];

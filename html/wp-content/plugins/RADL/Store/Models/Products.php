@@ -28,7 +28,7 @@ class Products extends BasedModelsWC
         //     'date_created_gmt',
         //     'date_created',
         // ],
-        "per_page" => 8,
+        // "per_page" => 8,
         "page" => 1,
         "category" => "",
         "slug" => "",

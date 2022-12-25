@@ -42,6 +42,7 @@ class BasedModels implements Value
      * @var array
      */
     public $params = [
+        "per_page" => 100,
         // "exclude" => [],
         // "order" => "",
         // "orderby" => "",

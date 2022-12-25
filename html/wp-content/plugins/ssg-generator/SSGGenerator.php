@@ -27,7 +27,7 @@ if (!class_exists('SSGGenerator')) {
 
             function SSGGenerator_setup_menu()
             {
-                add_menu_page('SSG Generator Page', 'SSGGenerator', 'manage_options', 'test-plugin', 'admin_menu_page');
+                add_menu_page('SSG Generator Page', 'SSGGenerator', 'edit_theme_options', 'ssg-generator', 'admin_menu_page');
             }
 
             function admin_menu_page()

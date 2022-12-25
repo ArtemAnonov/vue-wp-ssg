@@ -9,6 +9,6 @@ class ProductsTermsMaterials extends BasedModelsWC
     public $type = 'productsTermsMaterials';
     
     public $specific_params = [
-        "per_page" => 100,
+        // "per_page" => 100,
     ];
 }
