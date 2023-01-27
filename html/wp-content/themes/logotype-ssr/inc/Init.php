@@ -16,6 +16,10 @@ use Exception;
 final class Init
 {
     /**
+     * (!) - не понятно, рочему при запуске не админ запроса (вроде бы) не запускается
+     * то что установлено... Была проблема с загрузкой VueWordpress класса, который по идее должен загружаться
+     * только для неадминки
+     * 
      * Store all the classes inside an array
      * @return array Full list of classes
      */
@@ -37,9 +41,10 @@ final class Init
             [Plugins\ThemeJetpack::class, []],
             [Plugins\Acf::class, []],
             // [\MyTest\MyReflection\Reflection::class, []]
+            [VueWordpress\VueWordpress::class, []],
+
         ];
         $public_services = [
-            [VueWordpress\VueWordpress::class, []],
         ];
         $admin_services = [];
         return is_admin() ?

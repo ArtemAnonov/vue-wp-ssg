@@ -50,6 +50,8 @@ services:
       - ./html/wp-content/plugins:/var/www/html/wp-content/plugins
       - ./html/wp-content/themes/logotype-ssr:/var/www/html/wp-content/themes/logotype-ssr
       - ./html/wp-content/uploads:/var/www/html/wp-content/uploads
+      # - ./html/wp-content/wp-includes:/var/www/html/wp-content/wp-includes
+
 
       - ./.configuration/server/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
       - ./html/wp-config.php:/var/www/html/wp-config.php
@@ -64,6 +66,8 @@ services:
       - db
     networks:
       - app
+    # extra_hosts:
+    #   - "host.docker.internal:host-gateway"  # host-gateway(default) - 172.17.0.1  
 
   # LOCAL ONLI, FUCK IT \/
   # node: 

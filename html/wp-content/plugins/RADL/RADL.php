@@ -53,19 +53,17 @@ if (!class_exists('RADL')) { // && is_admin() === false
         {
             self::$store::rendered();
             array_walk_recursive(self::$store::$state, function ($item, $key) use (&$clone_state) {
-                if ($item instanceof RADL\Store\Value) {
-                    if ($item instanceof RADL\Store\Models\BasedModels) {
-                        $clone = clone $item;
-                        if (empty($clone->params)) $clone->params = (object) [];
-                        if (empty($clone->items)) $clone->items = (object) [];
-                        $clone_state['state'][$key] = $clone;
-                    } elseif ($item instanceof RADL\Store\Callback) {
-                        if ($key === 'routing') {
-                            $clone_state['routing'] = clone $item;
-                        } else {
-                            $clone_state['state'][$key] = clone $item;
-                        }
+                if ($item instanceof RADL\Store\Callback) {
+                    if ($key === 'routing') {
+                        $clone_state['routing'] = clone $item;
+                    } else {
+                        $clone_state['state'][$key] = clone $item;
                     }
+                } else {
+                    $clone = clone $item;
+                    if (empty($clone->params)) $clone->params = (object) [];
+                    if (empty($clone->items)) $clone->items = (object) [];
+                    $clone_state['state'][$key] = $clone;
                 }
             });
 

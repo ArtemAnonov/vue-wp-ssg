@@ -65,6 +65,7 @@ abstract class AbstractCartRoute extends AbstractRoute {
 	 * @return \WP_Error|\WP_REST_Response
 	 */
 	public function get_response( \WP_REST_Request $request ) {
+
 		$this->cart_controller->load_cart();
 		$this->calculate_totals();
 
@@ -75,7 +76,6 @@ abstract class AbstractCartRoute extends AbstractRoute {
 				return $this->add_nonce_headers( $this->error_to_response( $nonce_check ) );
 			}
 		}
-
 		try {
 			$response = parent::get_response( $request );
 		} catch ( RouteException $error ) {

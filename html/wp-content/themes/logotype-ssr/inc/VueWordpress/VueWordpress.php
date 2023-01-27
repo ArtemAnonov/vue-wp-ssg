@@ -6,8 +6,11 @@ use \SSGGenerator as SSGGenerator;
 use \WGU as WGU;
 use \RADL as RADL;
 use RADL\Store\Callback;
-use RADL\Store\Models;
-
+use RADL\Store\Models\Abstract;
+use RADL\Store\Models\VWSSG;
+use RADL\Store\Models\WC;
+use RADL\Store\Models\WCGB;
+use RADL\Store\Models\WP;
 /**
  * Class exist.
  * Class not use in admin panel before creating static files.
@@ -17,6 +20,10 @@ class VueWordpress
 
     public function register()
     {
+        if (class_exists('WooCommerce') && class_exists('WGU')) {
+            new WGU();
+        }
+        
         if (class_exists('SSGGenerator')) {
             new SSGGenerator();
         }
@@ -26,9 +33,7 @@ class VueWordpress
             new RADL($schema);
         }
 
-        if (class_exists('WooCommerce')) {
-            new WGU();
-        }
+
 
     }
 
@@ -37,25 +42,27 @@ class VueWordpress
         return [
             'routing' => new Callback([$this, 'vue_wordpress_routing']),
             'state' => [
-                'auth' => new Models\Auth(),
-                'cart' => new Models\Cart(),
-                'checkout' => new Models\Checkout(),
+                'auth' => new Abstract\Auth(),
+                'cart' => new WCGB\Cart(),
+                'checkout' => new WCGB\Checkout(),
 
-                'pages' => new Models\Pages(true),
-                'banners' => new Models\Banners(true),
-                'media' => new Models\Media(true),
+                'pages' => new WP\Pages(true),
+                'banners' => new WP\Banners(true),
+                'media' => new WP\Media(true),
 
-                'products' => new Models\Products(true),
-                'productsCategories' => new Models\ProductsCategories(true),
-                'productsAttributes' => new Models\ProductsAttributes(true),
-                'productsTermsBrands' => new Models\ProductsTermsBrands(true),
-                'productsTermsMaterials' => new Models\ProductsTermsMaterials(true),
-                'productsTermsSizes' => new Models\ProductsTermsSizes(true),
-                'productsTermsColors' => new Models\ProductsTermsColors(true),
+                'products' => new WC\Products(true),
+                'productsCategories' => new WC\ProductsCategories(true),
+                'productsAttributes' => new WC\ProductsAttributes(true),
+                'productsTermsBrands' => new WC\ProductsTermsBrands(true),
+                'productsTermsMaterials' => new WC\ProductsTermsMaterials(true),
+                'productsTermsSizes' => new WC\ProductsTermsSizes(true),
+                'productsTermsColors' => new WC\ProductsTermsColors(true),
+                'paymentGateways' => new WC\PaymentGateways(true),
+                
+                'orders' => new VWSSG\Orders(),
+                'customers' => new VWSSG\Customers(),
 
-                'orders' => new Models\Orders(),
-                'customers' => new Models\Customers(),
-
+                
                 'site' => new Callback([$this, 'vue_wordpress_site']),
                 'menus' => new Callback([$this, 'vue_wordpress_menus']),
                 'filter' => new Callback([$this, 'vue_wordpress_filter']),
@@ -142,13 +149,16 @@ class VueWordpress
         $menus = array();
 
         $locations = get_nav_menu_locations();
-        foreach (array_keys($locations) as $name) {
-            $id = $locations[$name];
-            $menu = array();
+        foreach (array_keys($locations) as $location_name) {
+            $id = $locations[$location_name];
+            $menu = (object) [
+                "name" => wp_get_nav_menu_name($location_name),
+                "items" => []
+            ];
             $menu_items = wp_get_nav_menu_items($id);
             if ($menu_items) :
                 foreach ($menu_items as $i) {
-                    array_push($menu, array(
+                    array_push($menu->items, array(
                         'id'      => $i->ID,
                         'parent'  => $i->menu_item_parent,
                         'target'  => $i->target,
@@ -159,7 +169,7 @@ class VueWordpress
                 }
             endif;
 
-            $menus[$name] = $menu;
+            $menus[$location_name] = $menu;
         }
         return $menus;
     }

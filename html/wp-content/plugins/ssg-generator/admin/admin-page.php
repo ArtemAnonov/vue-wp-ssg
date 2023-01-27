@@ -10,14 +10,15 @@ echo '<script>console.log(' . json_encode($store) . ')</script>';
 
 
 $json = json_encode($store);
-
-file_put_contents(get_template_directory() . '/vue-vite-ssr/src/json/vuewp.json', $json);
+$path = get_template_directory() . '/vue-vite-ssr/src/json/vuewp.json';
+file_put_contents($path, $json);
 
 // echo '<pre><b>',__FILE__,__LINE__,'</b><br>', print_r($store,1),'</pre>';
 
 ?>
 <h1>SSGGenerator</h1>
-<h4>Store rendered and writed!</h4>
+<h4>Store rendered and writed to JSON!</h4>
+<div>Path: <?php echo $path; ?></div>
 <!-- <form action="<?php
 // echo plugins_url('/exec.php', __FILE__)
 ?>/admin/scripts/hosting-exec.php">
@@ -27,5 +28,5 @@ file_put_contents(get_template_directory() . '/vue-vite-ssr/src/json/vuewp.json'
 
 <form action="<?php echo plugins_url('/exec.php', __FILE__) ?>/admin/scripts/vps-exec.php">
     <h2>Form for VPS</h2>
-    <button type="submit">Generate static files</button>
+    <button disabled type="submit">Generate static files</button>
 </form>

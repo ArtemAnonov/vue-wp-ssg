@@ -5,7 +5,7 @@ namespace RADL;
 use Exception;
 use RADL\Store\Value;
 use RADL\Store\Callback;
-use RADL\Store\Models\BasedModels;
+use RADL\Store\Models\AbstractModel;
 use Automattic\WooCommerce\Client;
 
 class Store
@@ -134,7 +134,7 @@ class Store
     public static function rendered()
     {
         self::render_values();
-        return self::$state_localize;
+        return self::$state;
     }
 
     /**

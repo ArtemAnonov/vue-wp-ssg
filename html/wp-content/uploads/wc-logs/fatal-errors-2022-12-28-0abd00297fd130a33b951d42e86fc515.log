@@ -1,0 +1,20 @@
+2022-12-28T11:33:24+00:00 CRITICAL Uncaught Error: Call to a member function getPayments() on null in /var/www/html/wp-content/themes/logotype-ssr/functions.php:92
+Stack trace:
+#0 /var/www/html/wp-settings.php(566): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/functions.php on line 92
+
+2022-12-28T13:06:10+00:00 CRITICAL Uncaught Error: Call to a member function getPayments() on null in /var/www/html/wp-content/themes/logotype-ssr/functions.php:92
+Stack trace:
+#0 /var/www/html/wp-settings.php(566): include()
+#1 /var/www/html/wp-config.php(139): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#3 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wp-admin/edit.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wp-content/themes/logotype-ssr/functions.php on line 92
+

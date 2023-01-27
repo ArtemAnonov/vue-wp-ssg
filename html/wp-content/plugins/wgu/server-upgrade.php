@@ -25,8 +25,8 @@ class Server_Upgrade extends Server
 			'product-attributes'       => 'WGU\Controllers\WC_REST_Product_Attributes_Controller_Upgrade',
 			'product-categories'       => 'WGU\Controllers\WC_REST_Product_Categories_Controller_Upgrade',
 			'customers'                => 'WGU\Controllers\WC_REST_Customers_Controller_Upgrade',
-
 			//WGU
+			
 			'coupons'                  => 'WC_REST_Coupons_Controller',
 			'customer-downloads'       => 'WC_REST_Customer_Downloads_Controller',
 			'network-orders'           => 'WC_REST_Network_Orders_Controller',

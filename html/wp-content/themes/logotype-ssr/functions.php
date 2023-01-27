@@ -50,24 +50,39 @@ function get_static_html_page(string $page_path = '')
     include get_template_directory() . '/vue-vite-ssr/dist/static' . $page_path  . '.html';
 }
 
-// function my_customize_rest_cors() {
-// 	remove_filter( 'rest_pre_serve_request', 'rest_send_cors_headers' );
-// 	add_filter( 'rest_pre_serve_request', function( $value ) {
-// 		header( 'Access-Control-Allow-Origin: *' );
-// 		header( 'Access-Control-Allow-Methods: GET' );
-// 		header( 'Access-Control-Allow-Credentials: true' );
-// 		header( 'Access-Control-Expose-Headers: Link', false );
+// use YooKassa\Client;
 
-// 		return $value;
-// 	} );
-// }
-// add_action( 'rest_api_init', 'my_customize_rest_cors', 15 );
+// $client = new Client();
+// $client->setAuth('Идентификатор магазина', 'Секретный ключ');
+
 
 
 function dd($value, $file = '', $line = '')
 {
     echo '<pre><b>', $line, $file, '</b><br>', print_r($value, 1), '</pre>';
 }
+
+
+// use YooKassa\Client;
+
+// $client = new Client();
+// $client->setAuth('969689', 'test_3k7dfmi02Hmpl1lW2TvdhU9BurQBfiOzoNdval-5Fh4');
+// $payment = $client->createPayment(
+//     array(
+//         'amount' => array(
+//             'value' => 100.0,
+//             'currency' => 'RUB',
+//         ),
+//         'confirmation' => array(
+//             'type' => 'redirect',
+//             'return_url' => 'http://localhost',
+//         ),
+//         'capture' => true,
+//         'description' => 'Заказ №1',
+//     ),
+//     uniqid('', true)
+// );
+// $payments = $client->getPayments(['status' => 'succeeded']);
 /**
  * Declaring WooCommerce support in themes
  *
