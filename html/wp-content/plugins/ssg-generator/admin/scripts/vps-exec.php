@@ -9,7 +9,7 @@ $output = null;
 $retval = null;
 exec(
     '
-cd /var/www/html/wp-content/themes/logotype-ssr/vue-vite-ssr; 
+cd /var/www/html/wp-content/themes/logotype-ssr/vue-vite-ssg; 
 npm run generate  2>&1
 chmod 777 dist;
 ',

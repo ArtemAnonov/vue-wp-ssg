@@ -16,7 +16,7 @@ use RADL\Store\Requests\RequestWPOne;
  * ВМЕСТО 'category' => 25 --- 'category' => '25'
  * 
  */
-abstract class Model extends AbstractModel implements Value
+abstract class Model extends BaseModel implements Value
 {
     public $params = [
         "per_page" => 100,

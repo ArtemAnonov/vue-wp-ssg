@@ -38,28 +38,26 @@ services:
       MYSQL_PASSWORD: MYSQL_PASSWORD
     volumes:
       - dbfile:/var/lib/mysql
-      - ./.configuration/db/mysql/my.cnf:/etc/my.cnf #for shrink RAM
+      - ./configuration/db/mysql/my.cnf:/etc/my.cnf #for shrink RAM
     networks:
       - app
 
   server:
-    container_name: docker-server
+    container_name: wc-docker-server
     build:
-      context: ./.configuration/server
+      context: ./configuration/server
     volumes:
       - ./html/wp-content/plugins:/var/www/html/wp-content/plugins
-      - ./html/wp-content/themes/logotype-ssr:/var/www/html/wp-content/themes/logotype-ssr
+      - ./html/wp-content/themes/logotype-ssg:/var/www/html/wp-content/themes/logotype-ssg
       - ./html/wp-content/uploads:/var/www/html/wp-content/uploads
-      # - ./html/wp-content/wp-includes:/var/www/html/wp-content/wp-includes
 
 
-      - ./.configuration/server/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      - ./configuration/server/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
       - ./html/wp-config.php:/var/www/html/wp-config.php
       - ./html/.htaccess:/var/www/html/.htaccess
 
-      - ./html/wp-content/debug.log:/var/www/html/wp-content/debug.log
     env_file:
-      ./.configuration/server/.env
+      ./configuration/server/.env
     ports:
       - 80:80
     depends_on:
@@ -73,14 +71,14 @@ services:
   # node: 
   #   container_name: docker-node
   #   build:
-  #     context: ./html/wp-content/themes/logotype-ssr/vue-vite-ssr
+  #     context: ./html/wp-content/themes/logotype-ssg/vue-vite-ssg
   #   ports:
   #     - "3000:3000"
     
   #   volumes:
-  #     - ./html/wp-content/themes/logotype-ssr/vue-vite-ssr:/usr/src/app
+  #     - ./html/wp-content/themes/logotype-ssg/vue-vite-ssg:/usr/src/app
   #     - /usr/src/app/node_modules
-  #     # - ./home/artbot/dev/wp-docker-apache/html/wp-content/themes/logotype-ssr/vue-vite-ssr:/usr/src/app
+  #     # - ./home/artbot/dev/wp-docker-apache/html/wp-content/themes/logotype-ssg/vue-vite-ssg:/usr/src/app
   #   # command: npm install
   #     # - npm install
   #     # - npm run dev

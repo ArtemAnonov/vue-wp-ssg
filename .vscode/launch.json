@@ -1,6 +1,14 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}/html/wp-content/themes/logotype-ssr/vue-vite-ssg/src",
+
+        },
         
         {
             "name": "B",
@@ -22,19 +30,18 @@
             "request": "attach",
             "name": "F",
             "port": 9222,
-            "webRoot": "${workspaceFolder}/html/wp-content/themes/logotype-ssr/vue-vite-ssr/src",
-            "url": "http://localhost:*",
+            "enableContentValidation": false,
+            "webRoot": "${workspaceFolder}/html/wp-content/themes/logotype-ssr/vue-vite-ssg/src",
+            "urlFilter": "http://localhost:*",
             // "sourceMapPathOverrides": {
-            //     "meteor://💻app/*": "${workspaceFolder}/*",
-            //     "webpack:///./~/*": "${workspaceFolder}/node_modules/*",
-            //     "webpack://?:*/*": "${workspaceFolder}/*"
+
             // }
         },
         {
             "type": "node",
             "name": "JavaScript Debug Terminal",
             "request": "launch",
-            "cwd": "${workspaceFolder}/html/wp-content/themes/logotype-ssr/vue-vite-ssr"
+            "cwd": "${workspaceFolder}/html/wp-content/themes/logotype-ssr/vue-vite-ssg"
         }
     ]
 }

@@ -10,7 +10,7 @@ echo '<script>console.log(' . json_encode($store) . ')</script>';
 
 
 $json = json_encode($store);
-$path = get_template_directory() . '/vue-vite-ssr/src/json/vuewp.json';
+$path = get_template_directory() . '/vue-vite-ssg/src/json/vuewp.json';
 file_put_contents($path, $json);
 
 // echo '<pre><b>',__FILE__,__LINE__,'</b><br>', print_r($store,1),'</pre>';

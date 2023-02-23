@@ -22,21 +22,21 @@ class Callback implements Value
      */
     public $returned;
 
-    public function __construct( callable $callable )
+    public function __construct(callable $callable)
     {
         $this->callable = $callable;
     }
 
-    private function call( array $args = array() )
+    private function call(array $args = array())
     {
-        $this->returned = call_user_func_array( $this->callable, $args );
+        $this->returned = call_user_func_array($this->callable, $args);
         $this->called = true;
     }
 
     public function get($args, $key = null)
     {
-        if ( !$this->called ) {
-            $this->call( $args );
+        if (!$this->called) {
+            $this->call($args);
         }
         return $this->returned;
     }
@@ -48,7 +48,7 @@ class Callback implements Value
      */
     public function render()
     {
-        if ( !$this->called )  $this->call();
+        if (!$this->called)  $this->call();
         return $this; //->returned
     }
 
@@ -59,7 +59,7 @@ class Callback implements Value
 
     public function get_all($params)
     {
-        if ( !$this->called ) $this->call( $params );
+        if (!$this->called) $this->call($params);
         return $this->returned;
     }
 
@@ -67,6 +67,4 @@ class Callback implements Value
     {
         new Exception('Метод не определён');
     }
-
-    
 }

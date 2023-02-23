@@ -5,7 +5,7 @@ namespace RADL;
 use Exception;
 use RADL\Store\Value;
 use RADL\Store\Callback;
-use RADL\Store\Models\AbstractModel;
+use RADL\Store\Models\BaseModel;
 use Automattic\WooCommerce\Client;
 
 class Store
