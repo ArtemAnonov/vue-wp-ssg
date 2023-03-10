@@ -1,6 +1,7 @@
 <?php
 
 namespace RADL\Store\Models;
+
 /**
  * 
  */
@@ -19,4 +20,12 @@ abstract class BaseModel
     public $type;
 
     public $route_base;
+
+    public $settings = [
+        "sensitive" => false,
+        "JWTRequestConfig" => [
+            "JWTMaintain" => true,
+            "JWTReqired" => true,
+        ]
+    ];
 }

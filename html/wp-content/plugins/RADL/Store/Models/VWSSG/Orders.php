@@ -13,6 +13,15 @@ class Orders extends ModelVWSSG
     public $type = 'orders';
 
     public $specific_params = [];
+
+    public $settings = [
+        "sensitive" => false,
+        "JWTRequestConfig" => [
+            "JWTMaintain" => true,
+            "JWTReqired" => true,
+        ]
+    ];
+
     public function __construct($prefetch_load = false)
     {
         parent::__construct($prefetch_load);

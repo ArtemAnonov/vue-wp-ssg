@@ -26,7 +26,6 @@ abstract class Model extends BaseModel implements Value
 
     ];
 
-
     public $items = [];
     /**
      * Keeps track of requests made and associated response data
@@ -39,6 +38,14 @@ abstract class Model extends BaseModel implements Value
      * @var boolean
      */
     protected $prefetch_load; // = false
+
+    public $settings = [
+        "sensitive" => false,
+        "JWTRequestConfig" => [
+            "JWTMaintain" => true,
+            "JWTReqired" => true,
+        ]
+    ];
 
     /**
      * Undocumented function

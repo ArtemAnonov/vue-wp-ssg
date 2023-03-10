@@ -1,2 +1,2 @@
 <?php
-get_static_html_page('/index');
+get_static_html_page('/homepage');

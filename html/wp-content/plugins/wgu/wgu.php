@@ -9,7 +9,7 @@
  * Author URI: http://yourwebsiteurl.com/
  **/
 
-use WGU\Server_Upgrade;
+use WGU\WOO\Server_Upgrade;
 use Automattic\WooCommerce\Blocks\Domain\Bootstrap;
 use Automattic\WooCommerce\Blocks\Package;
 use Automattic\WooCommerce\StoreApi\StoreApi;
@@ -31,12 +31,12 @@ if (!class_exists('WGU')) {
          */
         public function __construct()
         {
-            remove_action('rest_api_init', [\TInvWL_API::class, 'register_routes'], 15 );
+            remove_action('rest_api_init', [\TInvWL_API::class, 'register_routes'], 15);
 
-            add_action( 'rest_api_init', [$this, 'TInvWL_API_register_routes'], 15 );
-            // remove_action('init', array(\WooCommerce::instance(), 'load_rest_api'));
-            // add_action('init', array($this, 'load_rest_api'));
+            add_action('rest_api_init', [$this, 'TInvWL_API_register_routes'], 15);
 
+            remove_action('init', array(\WooCommerce::instance(), 'load_rest_api'));
+            add_action('init', array($this, 'load_rest_api'));
         }
 
         /**
@@ -45,20 +45,20 @@ if (!class_exists('WGU')) {
          * получения особых результатов, типа выборка заказов для зареганного пользователя я вынес в отдельные
          * маршруты для моделей)
          */
-        // public function load_rest_api()
-        // {
-        //     Server_Upgrade::instance()->init();
-        // }
+        public function load_rest_api()
+        {
+            Server_Upgrade::instance()->init();
+        }
 
-        public function TInvWL_API_register_routes() {
+        public function TInvWL_API_register_routes()
+        {
             global $wp_version;
 
-            if ( version_compare( $wp_version, 4.4, '<' ) || ( ! defined( 'WC_VERSION' ) || version_compare( WC_VERSION, '2.6', '<' ) ) ) {
+            if (version_compare($wp_version, 4.4, '<') || (!defined('WC_VERSION') || version_compare(WC_VERSION, '2.6', '<'))) {
                 return;
             }
             $controller = new TInvWL_Includes_API_Wishlist_Upgrade();
             $controller->register_routes();
-
         }
 
         private static function autoloader($class_name)

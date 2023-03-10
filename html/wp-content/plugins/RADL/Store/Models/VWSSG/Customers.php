@@ -1,6 +1,7 @@
 <?php
 
 namespace RADL\Store\Models\VWSSG;
+
 use RADL\Store\Models\ModelVWSSG;
 use RADL\Store\Requests\RequestWC;
 use WP_REST_Request;
@@ -11,8 +12,14 @@ class Customers extends ModelVWSSG
 
     public $type = 'customers';
 
-    public $specific_params = [
+    public $specific_params = [];
 
+    public $settings = [
+        "sensitive" => true,
+        "JWTRequestConfig" => [
+            "JWTMaintain" => true,
+            "JWTReqired" => true,
+        ]
     ];
 
     public function __construct($prefetch_load = false)

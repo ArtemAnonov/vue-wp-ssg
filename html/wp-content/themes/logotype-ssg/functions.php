@@ -33,6 +33,7 @@ if (class_exists('Awps\\Init')) {
     Awps\Init::register_services();
 }
 
+
 // exec();
 
 function vue_wordpress_min_read($content)
@@ -47,10 +48,16 @@ function vue_wordpress_min_read($content)
     return $time . 'min read';
 }
 
+/**
+ * "/index" - home
+ */
 function get_static_html_page(string $page_path = '')
 {
-    $page_path = !empty($page_path) ? $page_path : '/' . get_page_uri();
-    include get_template_directory() . '/vue-vite-ssg/dist/static' . $page_path  . '.html';
+    $is_empty = empty($page_path);
+    $page_path = $is_empty ? ('/' . get_page_uri()) : $page_path;
+    include get_template_directory() . '/vue-vite-ssg/dist/static' .
+        ($is_empty ? '' : '/pages') .
+        ($is_empty ? '/index' : $page_path)  . '.html';
 }
 
 // use YooKassa\Client;

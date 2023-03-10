@@ -1,6 +1,7 @@
 <?php
 
 namespace RADL\Store\Models\Base;
+
 use RADL\Store\Models\BaseModel;
 
 class Auth extends BaseModel
@@ -10,4 +11,12 @@ class Auth extends BaseModel
   public $type = 'auth';
 
   public $apiType = '/jwt-auth/v1/';
+
+  public $settings = [
+    "sensitive" => true,
+    "JWTRequestConfig" => [
+      "JWTMaintain" => false,
+      "JWTReqired" => false,
+    ]
+  ];
 }
