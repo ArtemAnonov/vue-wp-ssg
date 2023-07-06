@@ -1,0 +1,1747 @@
+
+
+   
+   
+
+
+
+
+	
+	
+	
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- stockmann02 -->
+	<title>Женская мода - Stockmann</title>
+
+	  	<!-- =========================================================
+	   Copyright (c) 2013 Ambientia Ltd. All rights reserved.
+	   asiakaspalvelu@ambientia.fi
+	========================================================== -->
+	  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="/style/text.css" />
+	<link rel="stylesheet" href="/style/navigation.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/style/stockmann.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/style/category_color.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/style/highslide.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/style/print.css" type="text/css" media="print" />
+
+
+	<script type="text/javascript" src="/js/ced/lib/jquery-1.3.2.min.js"></script>
+	
+	<!--  flash object required for flash and video -->
+	<script type="text/javascript" src="/js/highslide/swfobject.js"></script>
+
+    <!--  required if you want windows media video embeds wmv -->
+    <script type="text/javascript" src="/js/ced/lib/silverlight.js"></script>
+    <script type="text/javascript" src="/js/ced/lib/wmvplayer.js"></script>
+	<script type="text/javascript" src="/js/funktiot.js"></script>
+	
+	<script language="JavaScript" src="/js/prototype.js" type="text/javascript"></script>
+	<script language="JavaScript" src="/js/behaviour.js" type="text/javascript"></script>  
+	<script language="JavaScript" src="/js/navigation.js" type="text/javascript"></script>
+	<script language="JavaScript" src="/js/swfobject.js" type="text/javascript"></script>   
+	<script language="JavaScript" src="/js/loyalcustomer/kanta-asiakas.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/js/highslide/highslide-with-html.js"></script>
+	<script type="text/javascript">    
+     hs.graphicsDir = '/pics/highslide/graphics/';
+     hs.outlineType = 'rounded-white';
+     hs.outlineWhileAnimating = true;
+     hs.allowSizeReduction = false;
+     hs.preserveContent = false;
+	 hs.dimmingGeckoFix = true;
+
+	</script>
+	<script>
+		function flashLoaded(e) {
+ 			// e.ref is a reference to the Flash object. We'll pass it to jwplayer() so the API knows where the player is.
+
+			 // Add event listeners
+ 				jwplayer(e.ref).onReady(function() { alert('Player is ready'); });
+				 jwplayer(e.ref).onPlay(function() { alert('Player is playing'); });
+	
+			 // Interact with the player
+ 				//jwplayer(e.ref).play();
+	</script>	
+	<link rel="shortcut icon" href="/pics/favicon.ico" />
+	  
+			      			    <!--[if IE]>
+	    <style type="text/css">
+	     body {word-wrap: break-word;}
+	    </style>
+	    <![endif]-->	
+		    
+        
+        	    	
+		
+			
+				
+									
+				
+		
+	    
+    </head>
+<body>
+
+<div id="all">
+
+
+	<div id="header">
+							<div class="logo-ru">
+				<a href="/portal/ru/"></a>
+				<img src="/pics/ru-logo.gif" />
+				<h1>Stockmann.ru</h1>
+			</div>
+				<div class="topnavi">
+		<!-- noindex -->
+			
+
+
+	<ul id="nav">
+					    			<li func="menu">
+    				<a href="/portal/1343/"> Наши торговые центры</a>
+    				    			</li>
+								    			<li func="menu">
+    				<a href="/portal/1438/"> Услуги</a>
+    				    			</li>
+								    			<li func="menu">
+    				<a href="http://www.stockmanngroup.fi/en/en/"> Концерн Стокманн</a>
+    				    					<ul id="extranavi_2226" func="menu">
+    														            						<li>
+            							<a href="http://www.lindex.com">Lindex</a>
+            						</li>
+								    														            						<li>
+            							<a href="http://www.hobbyhall.ru">Hobby Hall</a>
+            						</li>
+								    														            						<li>
+            							<a href="http://www.seppala.ru">Seppälä</a>
+            						</li>
+								    						    					</ul>
+    				    			</li>
+								    			<li func="menu">
+    				<a href="/portal/1344/"> Приглашаем на работу</a>
+    				    			</li>
+						</ul>
+		<!-- /noindex -->
+		</div>
+							<!-- noindex -->
+    		<ul class="language">
+													    										    					    						<li><a href="/portal/29/">  
+    	  		In English
+  	  </a></li>
+    														    		</ul>
+    		<!-- /noindex -->
+				
+	</div>
+	<div id="naviheight">
+		<form action="/portal/3697/" id="cse-search-box" class="search">
+	  <div>
+    	<input type="hidden" name="cx" value="002604294421255954897:i8408iwh9xk" />
+	    <input type="hidden" name="cof" value="FORID:10" />
+	    <input type="hidden" name="ie" value="UTF-8" />
+   	 	<input type="text" name="q" class="field" value="Искать" onclick="clearInput('Искать', this);"/>
+   		<input type="submit" name="sa" class="button" value="&raquo;" />
+  	  </div>
+	</form>
+	<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=ru"></script>		
+		</div>
+	
+
+			<div id="page_subpage_list">
+		<div id="subpage_left_col_list">
+						
+		
+		
+	<div id="categorynavi">
+		<div class="fashion">
+				<!-- noindex -->
+
+
+		    
+    
+		
+	
+			
+		
+	<ul>
+<li>
+<a href="/portal/13860/" id="s">Женская мода</a>
+</li>
+<li>
+<a href="/portal/13861/">Мужская мода</a>
+</li>
+<li>
+<a href="/portal/13862/">Молодежные коллекции</a>
+</li>
+<li>
+<a href="/portal/1076/">Актуально</a>
+</li>
+<li>
+<a href="/portal/1089/">Полезно знать!</a>
+</li>
+<li>
+<a href="/portal/1093/">Услуги</a>
+</li>
+<li>
+<a href="/portal/475/">Дети</a>
+</li>
+<li>
+<a href="/portal/14233/">Спорт</a>
+</li>
+</ul>
+
+<!-- /noindex -->			</div>		
+			</div>	
+			
+		</div>	
+		
+		<div id="picture_category_subpage">
+			
+			
+			
+												
+							
+																																					<img src="/files/images/fashion/706/706x286_ds_fashion_baru.jpg" alt="" /></a>		
+			
+			
+				
+									
+			
+									
+			</div>
+			
+	
+		<div id="page">
+		<div id="mainlevel_left_list">
+			<div id="subnavi">				
+				                     	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                                  	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                                  	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                                  	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                          	             		                                   	                 <ul>
+    	<li><a href="#Аксессуары">Аксессуары</a></li>
+    	<li><a href="#Женская мода">Женская мода</a></li>
+    	<li><a href="#Нижнее белье, белье для сна, купальники">Нижнее белье, белье для сна, купальники</a></li>
+    	<li><a href="#Обувь">Обувь</a></li>
+    </ul>
+			</div>
+		</div>
+			
+		
+		
+		<div id="category_fp_content">
+						
+
+  <table border="0" width="100%" cellspacing="0" cellpadding="3">
+      	  <tr><td style="vertical-align: top; white-space: nowrap; padding-right: 5px; padding-top: 10px; padding-bottom: 5px;" id="Аксессуары">
+      <h4>Аксессуары</h4>
+      </td></tr>
+                  <tr>
+                    		                                      			<td class="border_bottom" id="brand_a">
+			A. Eriksson
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_a">
+			Achille Pinto
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_a">
+			Antonio Murolo
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_a">
+			Atlantis
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_b">
+			Bettini
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_b">
+			Bleu foret
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_b">
+			Burlington
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_c">
+			CK Socks
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Coccinelle
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Condor
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Cristelle & Co
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_d">
+			Dame
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			Dana
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			Delsey
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			Dior
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			DKNY
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			Doppler
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_e">
+			Ekotel
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_e">
+			Emporio Armani
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_e">
+			Esprit
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_f">
+			Falke
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_f">
+			Ferre Milano
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_f">
+			Filodoro Classic
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_f">
+			Fratelli Talli
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_f">
+			Friis & Co
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_f">
+			Furla
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_g">
+			Gianni Chiarini
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Global Accessories
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Gof
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Gucci
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_h">
+			Heuvel
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_h">
+			Hugo Boss
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_i">
+			Iceberg
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_i">
+			Iceberg
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_k">
+			Kangol
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_k">
+			Key one
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_k">
+			Kipling
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_k">
+			Kunert
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_l">
+			L’Asessor
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_l">
+			Larioseta
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_l">
+			Lasessor
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_l">
+			Longchamp
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_l">
+			Luana
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_m">
+			Marc by Marc Jacobs
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Marc Jacobs
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Marc Rozier
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Mary Pihlaja
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Max & Co
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Max Mara
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Michael by Michael Kors
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Miss Norlyn
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Monika
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Moschino
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_n">
+			Norlyn
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_n">
+			Nortika
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_o">
+			Okay Style
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_p">
+			Philippe Matignon
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_r">
+			Raffaello  Bettini
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_r">
+			Regency
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_r">
+			Rimova
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_r">
+			Robako Ceintures
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_r">
+			Roberta Gandolfi
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_r">
+			Roberto Cavalli
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_r">
+			Roby
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_s">
+			Saldarini
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Samsonite
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Santelli
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Santelli Francesca
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Sauso
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Seeberger
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Showsock
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Sisley
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Sopratutto
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Stetson
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_t">
+			Tif & Tiffy
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_t">
+			Tosca Blu
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_t">
+			Trasparenze
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_v">
+			V. Fraas
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_v">
+			Vendi
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_v">
+			Vogue
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_w">
+			Wigens
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_w">
+			Wolford
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+          	  <tr><td style="vertical-align: top; white-space: nowrap; padding-right: 5px; padding-top: 10px; padding-bottom: 5px;" id="Женская мода">
+      <h4>Женская мода</h4>
+      </td></tr>
+                  <tr>
+                    		                                      			<td class="border_bottom" id="brand_a">
+			Ada Parini
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_a">
+			Alexander McQueen
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_a">
+			Anglomania by Vivienne Westwood
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_a">
+			Armani Jeans
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_b">
+			Bandolera
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_b">
+			Betty Barclay
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_b">
+			Boss Black
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_b">
+			Boss Orange
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_c">
+			Calvin Klein Jeans
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Carla Buti
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Cby , Cby +White
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Cinzia Rocca
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Ck Calvin Klein
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Concept K
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Cristelle & Co.
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Custo Barcelona
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_d">
+			Dixi Coat
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			DKNY
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			DKNY Jeans
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_e">
+			Easy Comfort
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_e">
+			Erich Fend
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_e">
+			Esprit Casual
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_e">
+			Esprit Collection
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_e">
+			Etcetera
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_f">
+			Flare Collection
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_f">
+			French Connection
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_g">
+			Gerry Weber
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Gerry Weber Edition
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Global Essentials
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Global G
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Guess by Marciano
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Guess Jeans
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_h">
+			Hugo Woman
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_i">
+			I Blues
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_i">
+			InWear
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_j">
+			J.A.P.
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_j">
+			Joutsen
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_j">
+			Just Cavalli
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_l">
+			Liu Jeans
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_l">
+			Liu Jo
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_l">
+			Luhta
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_m">
+			Manuela Conti
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Marc Aurel
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Marc Cain
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Marc Cain Sport
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Marc O'Polo
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Marella
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Marlboro Classics
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			More & More
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Mosaic
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Moschino Love
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_n">
+			Noom
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_p">
+			Pennyblack
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_p">
+			Pieces
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_s">
+			Samoon
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Sand
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			See by Chloe
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Spoom
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Stefanel
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Strenesse
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_t">
+			Taifun
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_t">
+			Ted Baker
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_t">
+			Tommy Hilfiger
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_v">
+			Vero Moda
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_v">
+			Versace Collection
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_v">
+			Versace JC
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_v">
+			Versus
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_v">
+			Vila
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+          	  <tr><td style="vertical-align: top; white-space: nowrap; padding-right: 5px; padding-top: 10px; padding-bottom: 5px;" id="Нижнее белье, белье для сна, купальники">
+      <h4>Нижнее белье, белье для сна, купальники</h4>
+      </td></tr>
+                  <tr>
+                    		                                      			<td class="border_bottom" id="brand_3">
+			365 Calvin Klein
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_6">
+			6ixty 8ight
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_a">
+			After Eden
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_c">
+			Calvin Klein
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Catamar
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_c">
+			Chantelle
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_d">
+			D & G
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			Damella
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			Dkny
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_e">
+			Emporio Armani
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_e">
+			Esprit Casual
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_e">
+			Esprit Collection
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_f">
+			Fantasie
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_g">
+			Gattina
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Global Beach
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Global Lingerie
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_g">
+			Guess
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_h">
+			Huit
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_i">
+			Infil
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_j">
+			Jensen
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_j">
+			Just Cavalli
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_l">
+			Lise Charmel
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_m">
+			Maidenform
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Moschino
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_n">
+			No Romeo
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_p">
+			Panos Emporio
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_p">
+			Passionata
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_p">
+			Pastunette
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_r">
+			Rebelle
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_s">
+			Seafolly
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Sloggi
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Speidel
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Stockmann Silk
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Sunflair
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_t">
+			Triumph
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_u">
+			Unique Bra
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+          	  <tr><td style="vertical-align: top; white-space: nowrap; padding-right: 5px; padding-top: 10px; padding-bottom: 5px;" id="Обувь">
+      <h4>Обувь</h4>
+      </td></tr>
+                  <tr>
+                    		                                      			<td class="border_bottom" id="brand_b">
+			Billi Bi
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_c">
+			Cafè Noir
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_d">
+			De Fonseca
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_d">
+			DKNY
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_e">
+			Esprit
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_g">
+			Global Essentials
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_j">
+			Jaime Mascarò
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_j">
+			Juicy Couture
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_l">
+			Lacoste
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_m">
+			Marc O’Polo
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_m">
+			Michael Kors
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_p">
+			Peter Kaiser
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_s">
+			Shepherd
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_s">
+			Stile Divita
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_t">
+			Tommy Hilfiger
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_v">
+			Vagabond
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                           			<td class="border_bottom" id="brand_v">
+			Viking
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+            <tr>
+                    		                                      			<td class="border_bottom" id="brand_w">
+			Wonders
+			&nbsp;
+			</td>
+		                                    	              	                </tr>
+        </table>
+
+
+		</div>
+		
+	
+	
+	<div id="storeinformation">
+	
+		
+				
+										<div id="loyal_customers">
+	<div class="pic">		
+							
+																																							<img src="/files/images/front_page/lc_ru_51x43.jpg" alt="" /></a>		
+			
+			
+				
+</div>
+	
+			
+	
+	    		<h2>						<a href="/portal/1341/" >
+			  			Постоянные Покупатели
+	</a></h2>
+    		
+		
+	
+	<ul>
+				    		<li>
+    								<a href="/portal/5179/" >
+			  			Как стать Постоянным Покупателем?
+	</a>
+    		</li>
+				    		<li>
+    								<a href="/portal/5180/" >
+			  			Отделы Обслуживания Покупателей
+	</a>
+    		</li>
+				    		<li>
+    								<a href="/portal/1961/" >
+			  			Льготы для постоянных покупателей
+	</a>
+    		</li>
+			</ul>
+	<p>						
+	</p>
+</div>								
+		<div class="padding">	
+		
+			
+			
+										<div class="hl11">
+				<h3>			Внимание!
+	</h3></a>
+		
+									
+																																					<img src="" alt="" /></a>		
+			
+			
+				
+
+<p>
+				
+Уточняйте наличие линейки брендов в Торговых Центрах Стокманн
+
+	</p>
+<p>	 
+	 
+		
+				
+		
+				</p>
+</div>								</div>
+	</div>
+	
+
+		<div style="clear: both;"></div>
+	
+</div> 
+<div class="white"></div>
+
+<!-- noindex -->
+	<div id="footer">
+		
+
+
+
+	<ul>
+									<li><a href="/portal/3825/"> Обратная связь </a></li>
+												<li><a href="/portal/1746/"> Контактная информация </a></li>
+												<li><a href="/portal/3792/"> Карта сайта </a></li>
+																						<li><a href="/portal/5084/"> Смена адреса </a></li>
+												<li><a href="/portal/12961/"> Электронная рассылка </a></li>
+												<li><a href="http://www.stockmann.ru/portal/14597"> Поставщикам </a></li>
+						</ul>
+	</div>
+	<div id="bottomfooter">
+		<p>Copyright &copy; Stockmann</p>
+	</div>
+<!-- /noindex -->
+	
+		<!-- noindex -->
+		
+		    	<div id="navi">
+    		
+
+
+		    
+    
+		
+	
+	
+			
+		
+	<ul>
+<li>
+<a class="navi_1075" href="/portal/1075/" id="s">Мода</a>
+<ul id="navi_1075">
+<li>
+<a class="navi_13860" href="/portal/13860/">Женская мода</a>
+</li>
+<li>
+<a class="navi_13861" href="/portal/13861/">Мужская мода</a>
+</li>
+<li>
+<a class="navi_13862" href="/portal/13862/">Молодежные коллекции</a>
+</li>
+<li>
+<a class="navi_1076" href="/portal/1076/">Актуально</a>
+</li>
+<li>
+<a class="navi_1089" href="/portal/1089/">Полезно знать!</a>
+</li>
+<li>
+<a class="navi_1093" href="/portal/1093/">Услуги</a>
+</li>
+<li>
+<a class="navi_475" href="/portal/475/">Дети</a>
+</li>
+<li>
+<a class="navi_14233" href="/portal/14233/">Спорт</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="navi_1110" href="/portal/1110/">Косметика</a>
+<ul id="navi_1110">
+<li>
+<a class="navi_1111" href="/portal/1111/">Актуально</a>
+</li>
+<li>
+<a class="navi_1114" href="/portal/1114/">Услуги</a>
+</li>
+<li>
+<a class="navi_1115" href="/portal/1115/">Полезно знать!</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="navi_79" href="/portal/79/">Дом</a>
+<ul id="navi_79">
+<li>
+<a class="navi_4650" href="/portal/4650/">Casa Stockmann</a>
+</li>
+<li>
+<a class="navi_4651" href="/portal/4651/">Villa Stockmann</a>
+</li>
+<li>
+<a class="navi_13143" href="/portal/13143/">Decor Stockmann</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="navi_359" href="/portal/359/">Гастроном</a>
+<ul id="navi_359">
+<li>
+<a class="navi_360" href="/portal/360/">Актуально</a>
+</li>
+<li>
+<a class="navi_5616" href="/portal/5616/">Выбор продуктов</a>
+</li>
+<li>
+<a class="navi_362" href="/portal/362/">Рецепты и меню</a>
+</li>
+<li>
+<a class="navi_365" href="/portal/365/">Полезно знать!</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="navi_7316" href="/portal/7316/">Екатеринбург</a>
+<ul id="navi_7316">
+<li>
+<a class="navi_7318" href="/portal/7318/">Услуги</a>
+</li>
+<li>
+<a class="navi_15439" href="/portal/15439/">План расположения</a>
+</li>
+<li>
+<a class="navi_15620" href="/portal/15620/">Предложения партнеров</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="navi_14799" href="/portal/14799/">Санкт-Петербург</a>
+<ul id="navi_14799">
+<li>
+<a class="navi_14855" href="/portal/14855/">Стокманн в Санкт-Петербургe</a>
+</li>
+<li>
+<a class="navi_14952" href="/portal/14952/">История Невского Центра</a>
+</li>
+<li>
+<a class="navi_14955" href="/portal/14955/">Мероприятия и предложения</a>
+</li>
+<li>
+<a class="navi_14854" href="/portal/14854/">Услуги</a>
+</li>
+<li>
+<a class="navi_15619" href="/portal/15619/">Предложения партнеров</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="navi_16450" href="/portal/16450/">Приглашение в Хельсинки</a>
+<ul id="navi_16450">
+<li>
+<a class="navi_16452" href="/portal/16452/">Mагазины Cтокманн в Aэропорту</a>
+</li>
+<li>
+<a class="navi_16453" href="/portal/16453/">Платите меньше с Tax Free</a>
+</li>
+<li>
+<a class="navi_16454" href="/portal/16454/">Универмаги Stockmann в Финляндии</a>
+</li>
+<li>
+<a class="navi_16465" href="/portal/16465/">Время работы ТЦ Стокманн в Финляндии</a>
+</li>
+<li>
+<a class="navi_16466" href="/portal/16466/">Другие магазины Стокманн</a>
+</li>
+<li>
+<a class="navi_16747" href="/portal/16747/">Проживание в отелях Scandic</a>
+</li>
+</ul>
+</li>
+</ul>
+
+      	</div>
+      	    	
+		<!-- /noindex -->
+		
+	</div>
+
+									
+							<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20492586-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>			
+			
+		<!--54c3d47ec4c02e00d4e17441f17f23cc -->
+
+</body>
+</html>
+
+	
+

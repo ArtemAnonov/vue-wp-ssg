@@ -1,0 +1,137 @@
+#navi {
+	height: 15px;
+	font-size: 11px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 151px;
+	z-index: 13;
+	width: 815px;	
+	left; 0px;
+	xbackground: transparent url(/web/20130504133222im_/http://www.stockmann.ru/pics/navi/navibg.gif) no-repeat 20px 3px;
+	}
+
+#navi ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 800px;	
+	
+	}
+
+#navi ul li {
+	position: relative;
+	float: left;
+	padding: 0px 12px 0px 9px;
+	background: transparent url(/web/20130504133222im_/http://www.stockmann.ru/pics/li-language.gif) no-repeat right 2px;
+	cursor: pointer;
+
+	}
+
+#navi li ul {
+	position: absolute;
+	left: 0px;
+	top:12px;
+	display: none;
+	width: 200px;
+	background: #fff;
+	text-transform: uppercase;
+	padding-top: 20px;
+	z-index: 10;	
+	border-bottom: 17px solid #fff;
+	}
+
+#navi ul li ul li{
+	float: none;
+	background: #fff url(/web/20130504133222im_/http://www.stockmann.ru/pics/bg-subnavi-li-s.gif) no-repeat 12px 8px;
+	padding: 0px;
+	margin: -3px 0px -3px 0px;
+	padding-left: 21px;
+	z-index: 11;
+	}
+
+#navi ul li ul {z-index: 5;}
+	
+#navi ul li a {
+	text-decoration: none;
+	color: #424542;
+	font-weight: bold;
+	xvisibility: hidden;
+	cursor: pointer;
+
+	}
+#navi ul li a:hover {color: #216952;}
+
+#navi ul li a#s {color: #216952;}
+
+#navi ul li ul li a{
+	margin: 0px; 
+	display: block;
+	padding: 4px 0px 4px 0px;
+	margin: -1px 0px -1px 0px;
+visibility: visible;
+	}
+
+
+/* Fix IE. Hide from IE Mac \*/
+* html #navi ul li { float: left; }
+* html #navi ul li a { height: 1%; }
+/* End */	
+
+#navi ul li:hover ul {display: block;}
+#navi ul li:hover ul, ul li.over ul {display: block;}
+
+
+
+
+/*navigation pictures*/
+
+/*navi pics*/
+
+/*fi-fi*/
+a.navi_9, a.navi_10, a.navi_14, a.navi_267, a.navi_403, a.navi_515, a.navi_18, a.navi_35, 
+/*fi-se*/
+a.navi_1000, a.navi_1012, a.navi_137, a.navi_275, a.navi_413, a.navi_526, a.navi_143, a.navi_145,  
+/*fi-en*/
+a.navi_108, a.navi_135, a.navi_114, a.navi_117, a.navi_118, a.navi_119, a.navi_120, a.navi_122, 
+/*ru-ru*/
+a.navi_1075, a.navi_1110, a.navi_79, a.navi_359, a.navi_1341, a.navi_1343,
+/*ru-en*/
+a.navi_1142, a.navi_1271, a.navi_709, a.navi_315, a.navi_640,
+/*lv-lv*/
+a.navi_87, a.navi_88, a.navi_89, a.navi_323, a.navi_720, a.navi_668,
+/*lv-ru*/
+a.navi_1304, a.navi_1329, a.navi_368, a.navi_3644,
+/*lv-en*/
+a.navi_1179, a.navi_1278, a.navi_715, a.navi_377, a.navi_647,
+/*ee-ee*/
+a.navi_40, a.navi_41, a.navi_42, a.navi_283,
+/*ee-ru*/
+a.navi_47, a.navi_48, a.navi_49, a.navi_291,
+/*ee-en*/
+a.navi_1125, a.navi_1264, a.navi_620, a.navi_299, a.navi_633 {
+	display: block;
+	outline: 0px;
+	}
+
+
+/*
+     FILE ARCHIVED ON 13:32:22 May 04, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:58:38 Feb 04, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 82.214
+  exclusion.robots: 0.104
+  exclusion.robots.policy: 0.095
+  cdx.remote: 0.065
+  esindex: 0.01
+  LoadShardBlock: 50.215 (3)
+  PetaboxLoader3.datanode: 78.051 (4)
+  CDXLines.iter: 20.014 (3)
+  load_resource: 157.156
+  PetaboxLoader3.resolve: 91.981
+*/

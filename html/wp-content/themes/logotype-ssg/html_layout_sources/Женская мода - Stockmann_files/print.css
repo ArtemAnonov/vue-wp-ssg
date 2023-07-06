@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, Verdana, Serif;
+	font-size: 12px;
+	color: #000;}
+
+#navi {display: none;}
+.topnavi  {display: none;}
+.language {display: none;}
+#subnavi {display: none;}
+#categorynavi {display: none;}
+#footer {display: none;}
+#bottomfooter {
+	margin-top: 30px;}
+	
+#loyal_customers {display: none;}
+
+#recepies_navigation { display: none;}
+#header .logo h1 {display: none;}
+#header .logo img {margin-bottom: 10px;}
+.search { display: none;}
+
+#recepies_picture img {margin-bottom: 10px;}
+
+/*
+     FILE ARCHIVED ON 23:15:36 May 02, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:58:46 Feb 04, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 278.836
+  exclusion.robots: 0.085
+  exclusion.robots.policy: 0.076
+  RedisCDXSource: 0.793
+  esindex: 0.011
+  LoadShardBlock: 257.318 (3)
+  PetaboxLoader3.datanode: 406.702 (5)
+  CDXLines.iter: 17.294 (3)
+  load_resource: 1567.077 (2)
+  PetaboxLoader3.resolve: 711.215 (2)
+*/

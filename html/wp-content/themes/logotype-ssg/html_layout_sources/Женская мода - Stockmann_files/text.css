@@ -1,0 +1,131 @@
+/* text.css ei saa laittaa muita kuin content editorin tyylit !!! */
+
+
+body {
+	margin:0px;
+	padding:0px;
+	font-size:11px;
+	font-family:arial, helvetica;
+}
+
+span.strong { font-weight:bold; background-color:yellow; }
+span.highlight { background-color:yellow; }
+
+a {}
+
+span.korostus {
+	display:inline;
+	color:red;
+}
+
+p 	{
+ 	margin: 5px 0px 18px 0px;
+ 	}
+
+p.ingress_wide {font-size: 12px; line-height: 20px; margin-top: -2px;}
+p.ingress_normal {font-size: 12px; line-height: 15px; margin-top: -2px;}
+
+
+h2 {
+	color: #2B674E;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px 0px 17px 0px;	
+	}
+
+h3 {
+ 	color: #2B674E;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	margin: 20px 0px 10px 0px; 
+ 	}
+
+h4 {
+ 	color: #000;
+ 	font-size: 12px;
+ 	font-weight: bold;
+ 	margin: 0px 0px 12px 0px; 
+ 	}
+
+h5 {
+	color: #000;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 20px 0px 0px 0px;	
+	}
+
+
+ img {}
+ 
+ img.at_merkki { position:relative; top:3px; }
+ 
+ img.left {
+ 	margin-right:15px;
+ 	float: left;
+ 	}
+ 	
+ img.left_margin_bottom {
+ 	margin-right:15px;
+ 	margin-bottom:5px;
+ 	float: left;
+ 	}
+ 
+ img.dottedspacer {
+ 	margin: 15px 0px 0px 0px;
+ 	}
+ 
+ img.right {margin-left: 15px; float: right;}
+ 
+ a.styled_link {
+ 	background: transparent url(/web/20130503192857im_/http://www.stockmann.ru/pics/bg-link.gif) no-repeat right 6px;
+ 	padding-right: 8px;
+ 	}
+ 
+  a.styled_link_left {
+ 	background: transparent url(/web/20130503192857im_/http://www.stockmann.ru/pics/bg-link-bold.gif) no-repeat left 4px;
+ 	padding-left: 15px;
+ 	display: block;
+ 	margin: 15px 0px 15px 0px;
+ 	}
+ 
+ li.linklist {
+ 	background: none;
+ 	padding-left: 9px;
+ }
+
+th.border {border-right: 1px solid #DEDBDE;}
+td.border-right {border-right: 1px solid #DEDBDE; padding: 2px;}
+table.border {border: 1px solid #DEDBDE;}
+td.border{border: 1px solid #DEDBDE; border-collapse: collapse; padding: 2px;}
+td.border-left {border-left: 1px solid #DEDBDE; padding: 2px;}
+td.border-top {border-top: 1px solid #DEDBDE; padding: 2px;}
+td.border_bottom {border-bottom: 1px solid #DEDBDE; padding: 2px;}
+td.background {background: #DEDBDE;}
+td.dotted_bottom {background: transparent url(/web/20130503192857im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x 0px bottom; padding: 15px 0px 15px 0px;}
+
+p.table {margin: 0px 0px 0px 0px;}
+
+p.table_nomargin {margin-bottom: 0px; padding-bottom: 0px;}
+p.tableIn_nomargin {margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; padding-top: 0px;}
+
+/*
+     FILE ARCHIVED ON 19:28:57 May 03, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:58:38 Feb 04, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 62.631
+  exclusion.robots: 0.066
+  exclusion.robots.policy: 0.059
+  RedisCDXSource: 0.486
+  esindex: 0.007
+  LoadShardBlock: 40.241 (3)
+  PetaboxLoader3.datanode: 75.018 (5)
+  CDXLines.iter: 19.257 (3)
+  load_resource: 253.141 (2)
+  PetaboxLoader3.resolve: 141.239 (2)
+*/

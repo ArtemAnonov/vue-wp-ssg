@@ -1,0 +1,222 @@
+.u-clearfix {
+  zoom: 1; }
+  .u-clearfix:before, .u-clearfix:after {
+    display: table;
+    content: ""; }
+  .u-clearfix:after {
+    clear: both; }
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+.ExchangeBanner {
+  position: relative;
+  padding: 15px;
+  color: #000;
+  background: #fff; }
+
+.Heading {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 195px 10px 105px;
+  text-transform: none; }
+
+.Description {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 195px 0 105px; }
+
+.Button {
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  text-align: center;
+  background-image: none; }
+
+.Pic {
+  display: inline-block;
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin: 0 35px 0 0; }
+  .Pic-img {
+    width: 100%;
+    max-height: 100%; }
+
+@media all and (max-width: 767px) {
+  .Pic {
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 5px; }
+  .Heading {
+    margin: 15px 0 20px 135px; }
+  .Description {
+    margin: 0 0 20px 135px;
+    min-height: 30px; }
+  .Button {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin: 0 0 0 135px;
+    display: block;
+    padding: 15px 20px; } }
+
+@media all and (max-width: 460px) {
+  .Pic {
+    position: relative;
+    top: 0;
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 0; }
+  .Heading {
+    min-height: 50px;
+    margin: 10px 0 20px 85px; }
+    .Heading-name {
+      display: block; }
+  .Description {
+    margin: 0 0 20px 0; }
+  .Button {
+    display: block;
+    margin: 0; } }
+
+body {
+  position: relative; }
+
+.BeatingNumber {
+  animation: numberBeat .7s infinite alternate;
+  position: absolute;
+  right: -7px;
+  top: 5px;
+  width: 20px;
+  height: 20px; }
+
+.Description {
+  font-size: 16px; }
+
+.Pic {
+  position: relative;
+  width: 90px;
+  height: 90px; }
+
+.Pic-imgNumber {
+  width: 20px; }
+
+.Button {
+  background: #fff;
+  color: #e4023c;
+  position: static;
+  margin-top: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: bold; }
+
+@media all and (max-width: 767px) {
+  .Pic {
+    position: absolute; } }
+
+@media all and (max-width: 460px) {
+  .Pic {
+    margin: 15px 0 0 0;
+    width: 70px;
+    height: 70px; } }
+
+@keyframes numberBeat {
+  to {
+    transform: scale(1.7); } }
+
+.ExchangeBanner {
+  background-color: #8F0D57;
+  background-image: none;
+  background-size: auto;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border-width: 0;
+  border-color: #fff;
+  border-style: solid;
+  color: #fff;
+  height: auto;
+  float: none;
+  max-width: 310px;
+  min-height: 125px;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  .ExchangeBanner-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 32px;
+    z-index: 1; }
+
+.Heading {
+  font-family: "Open Sans", sans-serif; }
+
+.Description {
+  font-family: Roboto, sans-serif; }
+
+.Button {
+  font-family: Roboto, sans-serif;
+  background-color: #fff;
+  background-image: none;
+  background-size: auto;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #E4023C;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  border-radius: 0;
+  margin: 20px 0;
+  display: inline-block;
+  padding: 10px 20px; }
+
+.Heading {
+  margin: 0 0 20px;
+  text-align: center;
+  max-width: 390px; }
+  .Heading-name {
+    font-family: Roboto, sans-serif; }
+
+.Description {
+  margin: 20px 0;
+  text-align: center;
+  max-width: 390px; }
+
+.Pic {
+  height: 90px;
+  margin: 0;
+  position: relative; }

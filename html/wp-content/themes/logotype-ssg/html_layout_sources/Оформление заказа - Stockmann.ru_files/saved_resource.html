@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://stockmann.ru/order/success/9c71817ade8c8f1a2f8c3509decf1cdb/ -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./banner-popup-462cae80b9.css">
+  <link href="./css" rel="stylesheet">
+  <title>template WC-10315, WC-15264</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    @font-face {
+      font-family: 'StockmannSans';
+      src: url('https://assets.flocktory.com/fonts/3130/d7b00cb696810d178cfa54bd1d9918262b041867/StockmannSans-Bold.woff2') format("woff2");
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    @font-face {
+      font-family: 'StockmannSans';
+      src: url('https://assets.flocktory.com/fonts/3130/49967ebde65f410212a44fd3ea2a1d226940a3ca/StockmannSans-Regular.woff2') format("woff2");
+      font-style: normal;
+      font-weight: 400;
+    }
+
+
+    .widget {
+      font-family: 'StockmannSans', 'Arial', sans-serif;
+      text-transform: uppercase;
+      color: #ca9461;
+
+      font-size: 36px;
+      line-height: 120%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      padding: 74px 100px;
+      width: 1024px;
+      height: 365px;
+      background: url('https://assets.flocktory.com/uploads/clients/3019/c56006e1-e476-4eef-a330-5f179763f672_bg-desktop.jpg') no-repeat center / cover;
+    }
+
+    .text {
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .btn {
+      font-family: inherit;
+      font-size: 22px;
+      line-height: 100%;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+
+      width: 390px;
+      padding: 24px;
+      border: 1px solid #fff;
+      background-color: transparent;
+    }
+
+    @media (max-device-width: 1024px) {
+      .widget {
+        font-size: 28px;
+
+        width: 320px;
+        height: 320px;
+        padding: 35px 25px;
+        background-image: url('https://assets.flocktory.com/uploads/clients/3019/d2b52de9-dd50-4a7f-972c-f341d10881ce_bg-mob.jpg');
+      }
+
+      .btn {
+        font-size: 22px;
+        padding: 20px;
+        width: 100%;
+      }
+    }
+  </style>
+  <style>
+    .ExchangeBanner-close {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 25px;
+      top: 25px;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+
+    @media (max-device-width: 1024px) {
+      .ExchangeBanner-close {
+        right: 10px;
+        top: 10px;
+      }
+    }
+
+    .ExchangeBanner-close::after,
+    .ExchangeBanner-close::before {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 1px;
+      position: absolute;
+      background-color: currentColor;
+      top: 50%;
+      left: 50%;
+    }
+
+    .ExchangeBanner-close::after {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .ExchangeBanner-close::before {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+  </style>
+</head>
+
+<body class="jsapi-v2" style=""><style type="text/css">body {margin: 0;}</style><a style="text-decoration: none;" target="_blank" href="https://flocktory.com/interchange/ec0ac267-7a19-4f30-b2a9-53c3f41fa99e?utm_campaign=exchange&amp;utm_medium=referral&amp;utm_source=stockmann.ru">
+  <section class="widget" style="height: 365px;">
+    <p class="text">Артем, вам подарок <br> за&nbsp;сделанный
+      заказ</p>
+    <div class="btn" type="button">Получить подарок</div>
+  </section>
+
+  <script>
+    var isMobile = parent.innerWidth <= 1024;
+    (function () {
+      var onLoad = function () {
+        var overlayElement = frameElement.parentElement.parentElement;
+        var widgetNode = document.querySelector('.widget');
+
+        if (!overlayElement || !overlayElement.classList.contains('flockapi-overlay')) {
+          return;
+        }
+        var closeWidget = function () {
+          overlayElement.style.display = 'none';
+        };
+        var addCloseButton = function () {
+          var buttonElement = document.createElement('button');
+          buttonElement.classList.add('ExchangeBanner-close', 'js-close');
+          buttonElement.type = 'button';
+          // buttonElement.innerHTML = '&times;';
+
+          var currentButton = document.body.appendChild(buttonElement);
+          currentButton.addEventListener('click', closeWidget);
+        };
+        var configureOverlay = function () {
+          overlayElement.style.cssText = [
+            'position:fixed;',
+            'top:0;',
+            'right:0;',
+            'bottom:0;',
+            'left:0;',
+            'background-color: rgba(0, 0, 0, 0.8);',
+            'display:flex;',
+            'justify-content: center;',
+            'align-items: center;',
+            'z-index: 100500;',
+            'min-width: 100vw;',
+            'min-height: 100vh;'
+          ].join('');
+          overlayElement.addEventListener('click', function (evt) {
+            if (evt.target === evt.currentTarget) {
+              closeWidget();
+            }
+          });
+        };
+
+        function resizeWidget(value, unit) {
+          frameElement.style.width = value + unit;
+          frameElement.parentElement.style.width = value + unit;
+          frameElement.parentElement.parentElement.style.width = value + unit;
+        }
+
+        function configureHeight(height) {
+          // var RATIO = 1.8;
+          // var popupWidth = frameElement.scrollWidth;
+          var popupHeight = height;
+
+          widgetNode.style.height = popupHeight + 'px';
+          frameElement.style.height = popupHeight + 'px';
+          frameElement.parentElement.style.height = popupHeight + 'px';
+          frameElement.parentElement.parentElement.style.height = popupHeight + 'px';
+        }
+
+        screen.width < 1024 ? resizeWidget(320, 'px') : resizeWidget(1024, 'px');
+        screen.width < 1024 ? configureHeight(320, 'px') : configureHeight(365, 'px');
+        configureOverlay();
+        addCloseButton();
+      };
+      window.addEventListener('DOMContentLoaded', onLoad);
+    })();
+  </script>
+
+
+
+ <img src="./track.gif"></a><button class="ExchangeBanner-close js-close" type="button"></button></body></html>

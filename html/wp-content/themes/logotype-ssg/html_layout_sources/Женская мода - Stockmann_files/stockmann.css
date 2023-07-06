@@ -1,0 +1,1001 @@
+* {margin: 0px; padding: 0px;}
+
+body {
+	background: #DEDBDE;
+	font-size: 11px;
+	font-family: arial, helvetica, tahoma, serif;
+	}
+
+img {border: 0px;}
+
+img.read_more {vertical-align: middle; margin-left: 2px;}
+
+a {text-decoration: none; color: #216952; }
+
+
+a.movenavi {display: none; text-indent: -10000px;}
+td h3 {
+	color: #2B674E;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 2px 0px 5px 0px;	
+	} 
+
+td {font-size: 11px;}
+
+#all {
+	background: #ffffff url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-all.gif) repeat-y 0px 0px;
+	width: 961px;
+	_width: 962px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	}
+#all_wide {
+	background: #ffffff;
+	width: 961px;	
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	}
+
+/*Ylatunniste*/
+#header {
+	background: #ffffff;
+	height: 136px;
+	position: relative;
+	border-bottom: 4px solid #DEDBDE;
+	}
+
+	#header .logo a, #header .logo-ru a {
+		position: absolute;
+		left: 58px;
+		top:  28px;
+		display: block;
+		width: 172px;
+		height: 78px;	
+		z-index:2;
+		}
+	
+	#header .logo h1, #header .logo-ru h1  {
+		position: absolute;
+		left: 58px;
+		top:  28px;
+		width: 172px;
+		height: 78px;
+		text-indent: -10000px;
+		background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/logo-stockmann.gif) no-repeat 0px 0px;
+		}
+		
+		#header .logo-ru h1 {background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/ru-logo.gif) no-repeat 0px 0px;}
+		
+	#header .logo img, #header .logo-ru img {display: none;}
+	
+
+	
+	
+	
+	#header ul li  {
+		list-style-type: none;
+		padding-left: 8px;
+		}
+			
+	#header ul li a {color: #424142;}
+	
+	#header ul li a:hover {text-decoration: underline;}		
+		
+	 #header div.topnavi {
+			position: absolute;
+			left: 650px;
+			top: 23px;
+			width: 155px;
+			border: 0px solid orange;
+			padding-left: 150px;
+			}
+		
+		#header div.topnavi ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			width:155px;
+			border: 0px solid green;
+			}
+			
+		#header div.topnavi ul li  {
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/li-topnavi.gif) no-repeat 4px 8px; 
+			font-weight: bold;
+			line-height: 18px;
+			display: block;
+			width: 145px;
+			border: 0px solid pink;
+			padding-left: 12px;
+			}
+		
+		#header div.topnavi li ul {
+			position: absolute;
+			left: 6px;
+			top:15px;
+			display: none;
+			width: 127px;
+			border: 1px solid #BDBABD;
+			background: #fff;
+			padding: 10px 5px 10px 10px;
+			
+			}
+		#header div.topnavi li ul li {
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-link.gif) no-repeat 12px 9px;
+			height: 20px;
+			padding: 0px;
+			margin: 0px;
+			width: 100px;
+			padding-left: 20px;
+			}
+			
+		#header div.topnavi ul ul {z-index: 5;}
+		#header div.topnavi  ul li a {
+			text-decoration: none;
+			color: #424542;
+			font-weight: bold;
+			background: #fff;
+			}
+		#header div.topnavi	 ul li a#s {
+			color: #338364;
+			}
+		
+		#header div.topnavi	 li ul li a {
+			 line-height: 11px; 
+			 margin: 0px; 
+			 padding-top: 5px; 
+			 display: block; 
+			 height: 12px; 
+			 font-weight: normal;
+			 }
+		#header div.topnavi ul li a:hover {color: #216952; }
+
+			/* Fix IE. Hide from IE Mac \*/
+			* html #header div.topnavi ul li { float: left; }
+			* html #header div.topnavi ul li a { height: 1%; }
+			/* End */	
+
+		#header div.topnavi	li:hover ul, li.over ul { display: block; }
+	
+	
+/***dhtml end***/
+		
+		
+		
+		#header ul.language {
+			position: absolute;
+			left: 807px;
+			bottom: 16px;
+			}
+			
+		#header ul.language li  {float: left; margin-right: 6px;}
+		#header ul.language li.eng  {
+	 		background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/li-language.gif) no-repeat left 3px;
+	 		padding-left: 10px;
+	 		}
+	 	#header a.acces {display: none;}
+/* ////Ylatunniste */
+/*Navigoinnit*/
+
+#naviheight {height: 36px; background: #fff;}
+
+
+
+
+
+
+#categorynavi {
+	height: 286px;
+	width: 256px;
+	background: #296A52;
+	border-bottom: 4px solid #DEDBDE;
+	z-index: 1;
+	}
+
+		#categorynavi ul { text-transform: uppercase;
+			padding-top: 15px
+			}
+		
+		#categorynavi ul li {
+			list-style-type: none; 	
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-subnav-li.gif) no-repeat 13px 9px;
+			}
+		
+		#categorynavi ul li a {
+			color: #fff; 
+			padding: 4px 0px 4px 22px;
+			font-weight: bold;	
+			display: block;
+			_height: 1%;
+			}
+		
+		#categorynavi ul li a#s {
+			background: #848284 url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-subnav-li.gif) no-repeat 13px 9px;
+			padding: 4px 0px 4px 22px;
+			}
+
+
+#subnavi {padding: 18px 10px 0px 15px; }
+		
+		#subnavi h3 {
+			margin: 0px 0px 0px 0px; 
+			text-transform: uppercase; 
+			font-size: 11px; 
+			color: #424142;
+			}
+		#subnavi h3 a {color: #424142;}
+		#subnavi ul {margin: 4px 10px 0px 0px;}
+		
+		#subnavi ul li {
+			list-style-type: none; 	
+			padding: 0px 0px 0px 0px;	
+			}
+		
+		#subnavi ul li a {
+			color: #464646; 
+			font-weight: bold;	
+			display: block;
+			_height: 1%;
+			padding: 2px 0px 2px 10px;	
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-subnavi-li.gif) no-repeat 0px 6px;
+			}
+		
+		#subnavi ul li a#s {
+			color: #338364;
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-subnavi-li-s.gif) no-repeat 0px 6px;
+			}
+		
+		#subnavi ul li ul {margin: 0px 0px 0px 20px;}
+		#subnavi ul li ul li a {font-weight: normal;}
+
+		/*recepies_navigation on samalla resptisivun oikea palsta*/
+#recepies_navigation {
+	float: left;
+	width: 226px;		
+	padding: 0px 15px 0px 15px;
+	border-left: 0px solid #DEDBDE;
+	}
+
+	#recepies_navigation h3 {
+		padding: 0px 0px 20px 0px;
+		background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x 0px bottom;
+		font-size: 12px;
+		letter-spacing: 0px;
+		}
+		
+	#recepies_navigation ul li  {
+		list-style-type: none;
+		background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/li-topnavi.gif) no-repeat 0px 6px;
+		padding-left: 12px;
+		}
+	
+	#recepies_navigation ul li a {		
+		padding-bottom: 8px;
+		color: #464646;		
+		font-weight: bold;
+		}
+	
+	#recepies_navigation ul li a#selected {
+		color: #338364; }
+	
+	#recepies_navigation ul ul {margin-top: 6px;}
+	
+	#recepies_navigation ul ul li a {
+		font-weight: normal;
+		display: block;
+		height: 1%;
+		background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x 0px bottom;
+		}
+	
+			
+/* navigoinnit end */
+
+
+/* hakulomake navin vieressa */
+
+		form.search {
+			position: absolute;
+			right: 10px;
+			top: 147px;
+			height: 20px;
+			width: 130px;
+		
+			}
+		
+		form.search input.field {
+			border: 1px solid #DEDBDE;
+			width: 105px;
+			height: 18px;
+			font-size: 10px;
+			padding: 0px 0px 0px 4px;
+			}
+		
+		form.search input.button {	
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/li-topnavi.gif) no-repeat 6px 7px;
+			color: #000;
+			width: 20px;
+			height: 20px;
+			text-indent: -10000px;
+			border: 0px;
+			position: absolute;
+			padding: 2px 2px 2px 2px;		
+			cursor: pointer;
+			}
+			
+/* hakulomake navin vieressa end*/	
+	
+/* isot kuvapaikat tai flashit*/
+#picture {
+	background: #fff;
+	height: 286px;
+	border-bottom: 4px solid #DEDBDE;
+	overflow: hidden;
+	}
+
+#picture_category {
+	background: #fff;
+	position: absolute;
+	right: 0px;
+	top: 176px;
+	height: 286px;
+	width: 706px;
+	border-bottom: 4px solid #DEDBDE;
+	z-index: 1;
+	}
+	
+	
+
+
+#picture_category #flashplace {display: none;}
+
+#picture_category img {z-index: 1;}
+/* ///isot kuvapaikat tai flashit/////*/
+
+
+/*page_alueet sivupohjissa*/
+
+#page_fp {background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-content.gif) repeat-y 0px 0px; height: 490px;}
+	
+		#page_fp h2 {margin: 15px 0px 10px 0px; font-size: 12px;}
+		#page_fp p {margin: 0px;}
+
+#page {
+background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot-vertical.gif) no-repeat 254px 18px;	
+	
+	}
+
+		#page a, #page_fp a {
+			color: #226148;
+			font-weight: bold;
+			}
+			
+#page_subpage {
+	border-top: 4px solid #DEDBDE;
+	background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot-vertical.gif) no-repeat 254px 308px;
+	}
+	
+
+	
+	#page .padding, #page_fp .padding , #page_subpage .padding {padding: 0px}
+	#recepies_content .padding {padding: 20px; padding-bottom: 0px;}
+
+.white {background: #fff; width: 300px; height: 18px;}
+	
+/* // page_alueet sivupohjissa ends //*/
+
+
+
+/*sivupohjien sisaltoalueet*/
+#fp_content {
+	float: left;
+	width: 699px;
+	margin-top: 20px;	
+	position: relative;	
+	}
+	
+	/*etusivun nostot*/
+		#fp_content .nosto1 {
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x left bottom;
+			position: absolute;
+			top: 0px;
+			left: 19px;
+			width: 220px;
+			height: 220px;
+			xmargin: 0px 0px 30px 0px;
+			
+			overflow: hidden;
+			}
+			
+		#fp_content .nosto2 {
+			position: absolute;
+			left: 19px;
+			top: 220px;
+			width: 220px;
+			height: 175px;
+			padding: 15px 0px 0px 0px;
+			
+			}
+		
+		#fp_content .border {
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-y 0px 0px;
+			position: absolute;
+			top: 0px;
+			left: 262px;
+			width: 3px;
+			height: 440px;
+			}
+		
+		#fp_content .nosto3 {
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x left bottom;
+			position: absolute;
+			left: 281px;
+			top: 0px;
+			width: 395px;
+			height: 220px;
+			
+			}
+			
+	
+		#fp_content .nosto4 {
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-y right top;
+			position: absolute;
+			left: 281px;
+			width: 188px;
+			height: 207px;
+			top: 235px;
+			padding: 0px 15px 0px 0px;		
+			}
+		
+		#fp_content .nosto5 {			
+			position: absolute;
+			left: 483px;
+			width: 180px;
+			height: 200px;
+			top: 220px;
+			padding: 15px 0px 0px 15px;
+			}
+			/* ////etusivun nostot/// */
+			
+			
+#mainlevel_left {
+	float: left;
+	width: 228px;
+	margin-bottom: 20px;		
+	margin-top: 20px;
+	padding-left: 17px;
+	padding-right: 10px;
+	overflow: hidden;
+	}
+
+#mainlevel_left h3 {margin: 0px 0px 15px 0px; padding: 0px; font-size: 12px; letter-spacing: 0px;}
+#mainlevel_left .pic_left {margin: 0px 0px 10px 0px;}
+#category_fp_content{
+	float: left;
+	width: 414px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 10px;
+	overflow: hidden;
+	
+	}	
+
+		#category_fp_content #category_fp_content_lift {
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x 0px 0px;
+			margin: 20px 0px 15px 0px;
+			padding: 15px 0px 0px 0px;
+			} 
+			#category_fp_content #category_fp_content_lift #flashplace {display: none;}
+			
+			#category_fp_content #category_fp_content_lift .media {
+				float: left;
+				margin-right: 15px;					
+				}
+			
+			
+				
+			#category_fp_content_lift h3 {
+				font-size: 12px;
+				margin: 0px 0px 13px 0px;
+				}
+			
+			#category_fp_content #bm2 a {font-weight: normal; color: #000;}
+			#category_fp_content #bm2 h2 a {font-weight: bold; color: #2B674E;}
+	
+#subpage_left_col {
+	width: 255px;
+	margin-top: -4px;
+	float:left;
+	}
+	
+#picture_category_subpage {
+	background: #fff;
+	float: left;
+	border-bottom:4px solid #DEDBDE;
+	height:286px;
+	width:706px;
+	position:absolute;
+	right:0;
+	top:176px;
+	}
+
+#mainlevel_left_list {
+	float: left;
+	width: 255px;
+		
+
+	
+	overflow: hidden;
+	}
+
+#page_subpage_list {}
+
+#subpage_left_col_list {
+	width: 255px;
+	}
+	
+#subpage_content_subpage_list {	
+	width: 404px;
+	padding: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;		
+	overflow: hidden;
+	z-index: 1;
+	background:transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot-vertical.gif) no-repeat scroll 254px 18px;
+	}
+
+#subpage_content {
+	float: left;
+	width: 404px;
+	padding: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;		
+	overflow: hidden;
+	z-index: 1;
+	}
+
+	#subpage_content #category_subpage_lift {
+		background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x 0px 0px;		
+		height: 260px;		
+		position: relative;	
+		}
+		#subpage_content #category_subpage_lift h3 {
+			font-size: 12px;
+			letter-spacing: 0px;
+			margin: 12px 0px 8px 0px;
+		}
+	
+	#subpage_content #category_subpage_lift .subpage_lift1 {
+		background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-y right 0px;	
+		width: 185px;
+		margin-top: 20px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		padding-right: 15px;
+		}
+		
+	#subpage_content #category_subpage_lift .subpage_lift2 {		
+		width: 185px;
+		margin-top: 20px;
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		padding-left: 15px;
+		}
+/*	#subpage_content #category_subpage_lift .subpage_lift2 #flashplace , #subpage_content #category_subpage_lift .subpage_lift1 #flashplace {display: none;}*/
+#recepies_content {
+	float: left; 
+	width: 444px;
+	mih-height: 420px;
+	_height: 420px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;	
+	
+	}
+	
+	#recepies_picture {
+		height:  282px;
+		width: 444px;
+		background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/reseptikuva.jpg) no-repeat 0px 0px;
+		border-bottom: 4px solid #DEDBDE;
+		}
+	
+	#recepies_picture img {
+		display: none;
+		}
+		
+#subpage_content_wide {
+	float: left; 
+	width: 664px;
+	padding: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;		
+	overflow: hidden;
+	}
+
+#subpage_content ul, #subpage_content_wide ul, #recepies_content ul, #category_fp_content ul, #subpage_content ol, #recepies_content ol, #category_fp_content ol {
+	margin-bottom: 10px;
+	}
+#subpage_content ul li, #subpage_content_wide ul li, #recepies_content ul li, #category_fp_content ul li{
+	list-style-type: none;
+	background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-list.gif) no-repeat 0px 5px;
+	padding-left: 9px;
+	line-height: 13px;
+	padding-bottom: 3px;
+	}
+
+#subpage_content ul li ul, #subpage_content_wide ul li ul, #recepies_content ul li ul, #category_fp_content ul li ul{
+	margin-bottom: 0px;
+	margin-left: 10px;
+	}
+
+#subpage_content ol li, #subpage_content_wide ol li, #recepies_content ol li, #category_fp_content ol li{
+	margin-left: 1px;
+	list-style-position: inside;
+	}
+	
+	#subpage_content ol li ol li, #subpage_content_wide ol li ol li, #recepies_content ol li ol li, #category_fp_content ol li ol li{
+	margin-left: 15px;
+	list-style-position: inside;
+	}
+
+#subpage_content ul li .linklist, #subpage_content_wide ul li .linklist, #recepies_content ul li .linklist, #category_fp_content ul li .linklist, {
+ 	background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-link.gif) no-repeat 0px 5px;
+ 	padding-left: 9px;
+ }
+#subpage_content ul li.bulletin, #subpage_content_wide ul li.bulletin, #recepies_content ul li.bulletin, #category_fp_content ul li.bulletin{
+	background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-subnavi-li.gif) no-repeat 0px 8px;
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 8px;
+	}
+
+
+/*/// sivupohjien sisaltoalueet ///*/
+
+/*Sivupohjien oikea palsta*/
+#storeinformation {
+	float: left;
+	width: 258px;		
+	padding: 0px;
+	border-left: 4px solid #DEDBDE;
+	overflow: hidden;
+	}
+		
+	#storeinformation .padding {padding: 0px 20px 0px 20px;}	
+		
+		#storeinformation #loyal_customers {
+			border-bottom: 4px solid #DEDBDE;
+			padding: 0px 20px 8px 22px;
+			margin-bottom: 16px;
+			}
+		
+			#loyal_customers h2 {
+				text-transform:uppercase;
+				font-size: 11px;
+				margin: 14px 0px 10px 0px;
+				width: 144px;
+				overflow: hidden;
+				}
+			
+							
+			#loyal_customers p {margin: 0px;}
+			#loyal_customers ul {margin-bottom: 5px; border: 0px solid pink; width: 150px;}
+			#loyal_customers ul li {
+				list-style-type: none; 
+				background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-link.gif) no-repeat 0px 6px;
+				display: block; 
+				_height: 1%;
+				padding-left: 8px;
+			 	}			 
+			#loyal_customers ul li a {font-weight: normal; color: #000; font-size: 10px;}
+			#loyal_customers .pic { float: right; width: 63px; height: 53px; padding-top: 15px;}
+		
+		#storeinformation #store_info, #storeinformation #store_info_dep {
+			margin: 0px 22px 0px 22px;
+			padding: 0px 0px 13px 0px;
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x left bottom;
+			color: #757575;
+			}
+			#storeinformation #store_info p.color {color: #2B674E;}
+			 #storeinformation #store_info_dep p.color {color: #2B674E; font-weight: bold; margin: 0px;}
+			#storeinformation #store_info h2, #storeinformation #store_info_dep h2 {text-transform: uppercase; font-size: 11px; margin: 0px 0px 8px 0px;}
+			
+		#storeinformation #store_info_dep {			
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x left top;			
+			padding-top: 20px;
+			}	
+			
+		#storeinformation .hl11 h3 {font-size: 12px; letter-spacing: 0px;}
+		#storeinformation .hl11 #flashplace {display: none;}
+		#storeinformation .hl11 p {margin: 10px 0px 5px 0px;}
+		#storeinformation #parking {
+			margin: 0px;
+			color: #757575;
+			padding: 0px 22px 15px 22px;
+			border-bottom: 4px solid #DEDBDE;		
+			}
+			#storeinformation #parking h2 {margin: 12px 0px 7px 0px; text-transform: uppercase; font-size: 11px;}
+		
+		#storeinformation #akateeminen {
+			padding: 10px 22px 10px 22px;
+			border-bottom: 4px solid #DEDBDE;		
+			}
+	
+	
+		#storeinformation #beauty {padding: 7px 22px 7px 22px;}
+		#storeinformation #akateeminen img, #storeinformation #beauty img {margin-left: 26px;}	
+		#storeinformation #beauty .utoimg { margin: 0px;}
+		#storeinformation #beauty .utoimg p {margin-bottom: 5px;}
+		#storeinformation #beauty .utoimg h2 { margin: 0px 0px 6px 0px; padding: 0px;}
+		#storeinformation #beauty .utoimg img {margin-left: 0px; margin-right: 10px; float: left;}
+		
+		
+		
+		#storeinformation .category_subpage {
+			background: #fff;
+			border-bottom: 4px solid #dedbde;
+			width:258px; 
+			height:286px;
+			overflow: hidden;
+			}		
+		
+		#storeinformation .department_store_info {
+			background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x 0px 0px;
+			padding-top: 5px;
+			}
+			
+		#storeinformation .department_store_info p {margin: 0px;}	
+		#storeinformation .department_store_info p.green {color: #216952; font-weight: bold;}	
+		
+		#storeinformation .highlights {
+				background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x left bottom;
+				height: 104px;
+				margin-bottom: 9px;
+				}
+				
+			#storeinformation .highlights #flashplace {display: none;}
+			
+			#storeinformation .highlights h3{
+				font-size: 12px;
+				letter-spacing: 0px;
+				margin: 0px;
+			}
+			#storeinformation a.styled_link_left {background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-link.gif) no-repeat 0px 6px;
+			padding-left: 10px;}
+			#storeinformation .highlights a.styled_link{ font-weight: bold; }
+			
+			#storeinformation .highlights p {margin: 3px 0px 5px 0px;}
+			#storeinformation .highlights .media {float: left; margin-right: 15px;}
+		
+		/**/
+	 	form#department_store_selection {margin-top: 20px;}
+	 	form#department_store_selection select {
+	 		width: 200px; 
+	 		border: 1px solid #A1AC87; 
+	 		padding: 2px; 
+	 		font-size: 9px;
+	 		line-height: 10px;
+	 		height: 19px;
+	 		}
+		
+/*reseptisivun oikea palsta on navigointien yhteydessa*/	
+		
+		
+/* /// oikea palsta /// */	
+
+
+/*Alatunniste*/
+#footer {
+	border-top: 4px solid #DEDBDE;
+	background: #ffffff;
+	height: 30px;
+	padding: 13px 0px 0px 100px;
+	}
+		
+	#footer ul li {
+		list-style-type: none;
+		display: inline;
+		padding: 0px 18px 0px 19px;
+		background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/li-language.gif) no-repeat right 3px;
+		}
+	#footer ul li.last { background: none; }
+	#footer ul li a{color: #4A494A;}
+	
+#bottomfooter {
+	background: #DEDBDE;
+	height: 20px;
+	font-size: 10px;
+	text-align: right;
+	padding: 10px 20px 0px 0px;
+	font-weight: bold;
+	color: #535252;
+	}
+
+/* /// alatunniste ///*/
+
+
+/*table styles*/
+
+table.titletable th {
+	text-align: left;
+	padding: 3px 3px 3px 0px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #2B674E;
+	}
+
+table.titletable td p {	margin: 3px 0px 3px 0px; text-align:left; vertical-align: top;}
+
+table.tableColumn td {padding-right: 5px; vertical-align: top;}
+
+
+/*blockqoutes for preview*/
+blockquote {margin-left: 25px;}
+blockquote blockquote {margin-left: 50px;}
+blockquote blockquote blockquote {margin-left: 75px;}
+
+table.kateiskorttihakemustaulukko td {padding: 4px;}
+table.kateiskorttihakemustaulukko2 td {padding: 2px;}
+
+#fp_content #smc_nosto3 {
+	xborder: 1px solid #f00;
+	width: 390px;
+	position: absolute;
+	top: 0px;
+	left: 260px;
+	padding: 0 27px 0px 20px;
+	margin-bottom:10px;
+	}
+	
+#fp_content #smc_nosto3 h1 {
+	color: #286a51; 
+	margin-bottom: 28px;
+	font-size: 21px;
+}
+
+#fp_content #smc_nosto3 p {
+	color: #464646;
+	font-size: 11px;
+	line-height: 17px;
+	}
+	
+#fp_content #smc_nosto3 a {	
+	background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-link.gif) no-repeat scroll right 6px;
+	padding-right:8px;
+	}
+	
+#fp_content .smc_nosto2 {	
+	height:175px;
+	left:19px;
+	padding:15px 0 0;
+	position:absolute;
+	top:195px;
+	width:220px;
+	color: #464646;	
+	}	
+
+#fp_content .smc_nosto1 {
+	xbackground:transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/bg-dot.gif) repeat-x scroll left bottom;
+	height:220px;
+	left:19px;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	width:220px;
+	color: #464646;
+	}
+
+
+
+
+/*
+#picture_lv {
+	background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/pics/stockmann_smc_main.jpg) no-repeat 0px 0px;
+	height: 286px;
+	border-bottom: 4px solid #DEDBDE;
+	overflow: hidden;
+	}
+*/
+
+#picture #smc_latvia_ru, #picture #smc_latvia_en, #picture #smc_latvia_lv {
+		height: 286px; 
+		position: relative;	
+		}
+	
+	#picture #smc_latvia_lv {background: #fff url(/web/20130504130647im_/http://www.stockmann.ru/ap-pics/flash/latvia/lv/stockmann_backupit_lv.jpg) no-repeat 0px 0px; }
+	#picture #smc_latvia_ru {background: #fff url(/web/20130504130647im_/http://www.stockmann.ru/ap-pics/flash/latvia/ru/stockmann_backupit_ru.jpg) no-repeat 0px 0px; }
+	#picture #smc_latvia_en {background: #fff url(/web/20130504130647im_/http://www.stockmann.ru/ap-pics/flash/latvia/en/stockmann_backupit_en.jpg) no-repeat 0px 0px; }
+	
+
+#picture #smc_latvia_lv a, #picture #smc_latvia_ru a, #picture #smc_latvia_en a {		
+		text-indent: -10000px;
+		position: absolute; 
+		left: 380px;
+		display: block;
+		width: 340px; 
+		outline: 0px;
+		height: 40px;
+		xborder: 1px solid #f00;
+		}
+		
+	/* LATVIA */
+	#picture #smc_latvia_lv a.change_card { left: 380px; top: 100px;}
+	#picture #smc_latvia_ru a.change_card	{top: 102px; left: 360px; width: 380px;}
+  	#picture #smc_latvia_en a.change_card {top: 102px; width: 310px;}
+	#picture #smc_latvia_lv a.readmore, #picture #smc_latvia_ru a.readmore {top: 165px; width: 180px; }
+	#picture #smc_latvia_ru a.readmore { left: 360px; width: 200px;}
+	#picture #smc_latvia_en a.readmore {top: 165px; width: 170px;}
+	
+		
+	#smc_latvia_cfp a, #smc_latvia_cfp_ru a, #smc_latvia_cfp_en a { height:40px; width: 340px; text-indent: -10000px; position: absolute;}
+	#smc_latvia_cfp a.change_card, #smc_latvia_cfp_ru a.change_card, #smc_latvia_cfp_en a.change_card { top: 102px; left: 290px;}
+	#smc_latvia_cfp_ru a.change_card {width: 380px;}
+	
+	#smc_latvia_cfp a.readmore, #smc_latvia_cfp_ru a.readmore, #smc_latvia_cfp_en a.readmore {top: 165px; left: 290px; width: 170px;}
+	#smc_latvia_cfp_ru a.readmore {width: 200px;}
+	
+	
+	#smc_latvia_cfp {background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/flash/lv/stockmann_etu_card_smallbck_lv.jpg) no-repeat 0px 0px;}
+	#smc_latvia_cfp_ru {background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/flash/ru/stockmann_etu_card_smallbck_ru.jpg) no-repeat 0px 0px;}
+	#smc_latvia_cfp_en {background: transparent url(/web/20130504130647im_/http://www.stockmann.ru/flash/en/stockmann_etu_card_smallbck_en.jpg) no-repeat 0px 0px;}
+	/* End of LATVIA */
+	
+
+	
+	
+	
+	p.table_nomargin {margin-bottom: 0px; padding-bottom: 0px;}
+	p.tableIn_nomargin {margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; padding-top: 0px;}
+	
+	
+	#cse-search-results {overflow: hidden; width: 670px; }
+	#cse-search-results iframe {width: 670px !important; }
+	
+
+/* Formdesinger virheilmoitus */
+
+.error_on_the_form {
+	border: 5px solid #f00;
+	background: pink;
+	padding: 10px 5px 10px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	}
+	
+	
+h4.brands {
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 15px 0px 6px 0px;
+	}
+
+
+
+	
+	
+/*
+     FILE ARCHIVED ON 13:06:47 May 04, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:58:38 Feb 04, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 123.478
+  exclusion.robots: 0.085
+  exclusion.robots.policy: 0.076
+  RedisCDXSource: 0.556
+  esindex: 0.009
+  LoadShardBlock: 97.546 (3)
+  PetaboxLoader3.resolve: 99.833 (3)
+  PetaboxLoader3.datanode: 118.28 (5)
+  CDXLines.iter: 22.455 (3)
+  load_resource: 203.535 (2)
+*/
