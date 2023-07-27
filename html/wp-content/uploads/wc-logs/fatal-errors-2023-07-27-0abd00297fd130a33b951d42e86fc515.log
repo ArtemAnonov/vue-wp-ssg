@@ -1,0 +1,11 @@
+2023-07-27T20:01:47+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php:427
+Stack trace:
+#0 /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php(427): ftp_nlist(NULL, '/var/www/html/w...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php(182): WP_Filesystem_FTPext->exists('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(308): WC_Integration_MaxMind_Geolocation->update_database()
+#3 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-cron.php(188): do_action_ref_array('woocommerce_geo...', Array)
+#6 {main}
+  thrown in /var/www/html/wp-admin/includes/class-wp-filesystem-ftpext.php on line 427
+
