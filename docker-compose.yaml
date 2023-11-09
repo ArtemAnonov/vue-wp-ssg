@@ -43,18 +43,18 @@ services:
       - app
 
   server:
-    container_name: wc-docker-server
+    container_name: wp-docker-server
     build:
       context: ./configuration/server
     volumes:
-      - ./html/wp-content/plugins:/var/www/html/wp-content/plugins
-      - ./html/wp-content/themes/logotype-ssg:/var/www/html/wp-content/themes/logotype-ssg
-      - ./html/wp-content/uploads:/var/www/html/wp-content/uploads
+      # - ./html/wp-content/plugins:/var/www/html/wp-content/plugins
+      # - ./html/wp-content/themes/logotype-ssg:/var/www/html/wp-content/themes/logotype-ssg
+      # - ./html/wp-content/uploads:/var/www/html/wp-content/uploads
 
-
+      - ./html/:/var/www/html/
       - ./configuration/server/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
-      - ./html/wp-config.php:/var/www/html/wp-config.php
-      - ./html/.htaccess:/var/www/html/.htaccess
+      # - ./html/wp-config.php:/var/www/html/wp-config.php
+      # - ./html/.htaccess:/var/www/html/.htaccess
 
     env_file:
       ./configuration/server/.env

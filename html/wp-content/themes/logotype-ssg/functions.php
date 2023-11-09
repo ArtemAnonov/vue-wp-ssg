@@ -58,6 +58,7 @@ function get_static_html_page(string $page_path = '')
     include get_template_directory() . '/vue-vite-ssg/dist/static' .
         ($is_empty ? '' : '/pages') .
         ($is_empty ? '/index' : $page_path)  . '.html';
+
 }
 
 // use YooKassa\Client;
